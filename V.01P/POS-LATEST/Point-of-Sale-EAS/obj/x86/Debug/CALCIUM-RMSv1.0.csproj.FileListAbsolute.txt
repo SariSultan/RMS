@@ -1,0 +1,2 @@
+D:\Work\Calcium\RMS\POS\Versions\V.01P\POS-LATEST\Point-of-Sale-EAS\bin\Debug\Calcium_RMS.exe.config
+D:\Work\Calcium\RMS\POS\Versions\V.01P\POS-LATEST\Point-of-Sale-EAS\obj\x86\Debug\CALCIUM-RMSv1.0.csproj.ResolveComReference.cache

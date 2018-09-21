@@ -1,0 +1,5 @@
+C:\Users\saris\Desktop\Ribbon\Ribbon_10May2013\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\saris\Desktop\Ribbon\Ribbon_10May2013\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\System.Windows.Forms.Ribbon35.pdb
+C:\Users\saris\Desktop\Ribbon\Ribbon_10May2013\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\saris\Desktop\Ribbon\Ribbon_10May2013\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\saris\Desktop\Ribbon\Ribbon_10May2013\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\System.Windows.Forms.Ribbon35.pdb

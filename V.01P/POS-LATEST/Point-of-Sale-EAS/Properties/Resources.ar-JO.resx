@@ -1,0 +1,4307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ListItems" xml:space="preserve">
+    <value>List Items</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="basket_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basket_128.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCustomerPayment_Divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomerPayment_Divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exchange" xml:space="preserve">
+    <value>الصرف</value>
+  </data>
+  <data name="CashIn" xml:space="preserve">
+    <value>الرصيد المدخل</value>
+  </data>
+  <data name="PayUsingCreditCard" xml:space="preserve">
+    <value>Pay Using Credit Card</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="UnRevisedBills" xml:space="preserve">
+    <value>UnRevised Bills</value>
+  </data>
+  <data name="Revised" xml:space="preserve">
+    <value>Revised</value>
+  </data>
+  <data name="RETURN_CUSTOMER_ITEM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RETURN_CUSTOMER_ITEM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MakeSale" xml:space="preserve">
+    <value>Make Sale</value>
+  </data>
+  <data name="AddTaxLevel_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddTaxLevel_Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locked.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TotalDiscount" xml:space="preserve">
+    <value>Total Discount</value>
+  </data>
+  <data name="basket_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basket_256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Namee" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="ListBills" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="Divider-Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Divider-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="AllowEditAdmins" xml:space="preserve">
+    <value>Allow Edit Admins</value>
+  </data>
+  <data name="Phone2" xml:space="preserve">
+    <value>Phone2</value>
+  </data>
+  <data name="AddNewPriceLevel_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewPriceLevel_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PricingLbl" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="VendorCompany" xml:space="preserve">
+    <value>Vendor Company</value>
+  </data>
+  <data name="Update_Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update_Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckedBy" xml:space="preserve">
+    <value>Checked By</value>
+  </data>
+  <data name="AddNewItemType_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewItemType_Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchbyPhone" xml:space="preserve">
+    <value>Search by Phone</value>
+  </data>
+  <data name="BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="PayInCache" xml:space="preserve">
+    <value>Pay in Cache</value>
+  </data>
+  <data name="BillDiscountPerc" xml:space="preserve">
+    <value>نسبة الخصم على الفاتورة</value>
+  </data>
+  <data name="AddPriceLvl" xml:space="preserve">
+    <value>إضافة مستوى تسعيرة جديد</value>
+  </data>
+  <data name="EditCustomers" xml:space="preserve">
+    <value>تعديل الزبائن</value>
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>مستوى السعر</value>
+  </data>
+  <data name="ItemType" xml:space="preserve">
+    <value>نوع السلعة</value>
+  </data>
+  <data name="GoToPage" xml:space="preserve">
+    <value>الذهاب لصفحة</value>
+  </data>
+  <data name="ItemDesc" xml:space="preserve">
+    <value>وصف السلعة</value>
+  </data>
+  <data name="ReviseDate" xml:space="preserve">
+    <value>Revies Date</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="AddVendorPayment" xml:space="preserve">
+    <value>إضافة دفعة بائع</value>
+  </data>
+  <data name="AddNewItemType" xml:space="preserve">
+    <value>إضافة نوع سلعة جديد</value>
+  </data>
+  <data name="CheckNumber" xml:space="preserve">
+    <value>Check Number</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="AddNewVendor_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewVendor_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevisePayment" xml:space="preserve">
+    <value>Revise Payment</value>
+  </data>
+  <data name="SellPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="CustomerPhone" xml:space="preserve">
+    <value>By Customer Phone</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>خصائص البحث</value>
+  </data>
+  <data name="LossProfit" xml:space="preserve">
+    <value>Loss/Profit</value>
+  </data>
+  <data name="Test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Update_Icon_Purble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update_Icon_Purble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddDisposalReason_Bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddDisposalReason_Bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListVendors" xml:space="preserve">
+    <value>List Vendors</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>إضافة سلعة</value>
+  </data>
+  <data name="RevisedBy" xml:space="preserve">
+    <value>Revised By</value>
+  </data>
+  <data name="BG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevisedVoucher" xml:space="preserve">
+    <value>Revised Voucher</value>
+  </data>
+  <data name="MakeUserAccount" xml:space="preserve">
+    <value>Make User Account</value>
+  </data>
+  <data name="BillNumber" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Customer Account</value>
+  </data>
+  <data name="ReviseBill" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>Total Items</value>
+  </data>
+  <data name="x-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevisedBills" xml:space="preserve">
+    <value>Revised Bills</value>
+  </data>
+  <data name="OldCustomerAccountBalance" xml:space="preserve">
+    <value>Old Customer Account Balance</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>جرد</value>
+  </data>
+  <data name="CurrentCustomerAccountBalance" xml:space="preserve">
+    <value>Current Customer Account Balance</value>
+  </data>
+  <data name="UpdateVendor" xml:space="preserve">
+    <value>Update Vendor</value>
+  </data>
+  <data name="AddTax" xml:space="preserve">
+    <value>إضافة ضريبة</value>
+  </data>
+  <data name="AddCat" xml:space="preserve">
+    <value>إضافة تصنيف</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="AddCustomers_Bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomers_Bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddItemType" xml:space="preserve">
+    <value>إضافة نوع سلعة</value>
+  </data>
+  <data name="RenderPnt" xml:space="preserve">
+    <value>Render Point</value>
+  </data>
+  <data name="Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="AddNewCategory_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewCategory_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paymeth" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Saro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saro2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AvgUnitCost" xml:space="preserve">
+    <value>Average Unit Cost</value>
+  </data>
+  <data name="NumItemsPerPage" xml:space="preserve">
+    <value># Items Per Page</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Margin%</value>
+  </data>
+  <data name="POS_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POS_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="AddCustomers_Bg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomers_Bg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POS" xml:space="preserve">
+    <value>Point Of Sale</value>
+  </data>
+  <data name="Pricing" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>المعلومات</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>التصنيف</value>
+  </data>
+  <data name="BuyRate" xml:space="preserve">
+    <value>مستوى البيع</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="ReviseInfo" xml:space="preserve">
+    <value>Revise Information</value>
+  </data>
+  <data name="Printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Printer.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>Vendors</value>
+  </data>
+  <data name="Phone1" xml:space="preserve">
+    <value>Phone1</value>
+  </data>
+  <data name="TellerName" xml:space="preserve">
+    <value>اسم أمين الصندوق</value>
+  </data>
+  <data name="BarCode" xml:space="preserve">
+    <value>BarCode </value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="AddDisposalReason" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddDisposalReason.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DISPOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DISPOSE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckPayment" xml:space="preserve">
+    <value>Check Payment</value>
+  </data>
+  <data name="AddNewPriceLevel_Bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewPriceLevel_Bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAYMENT_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAYMENT_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddTaxLevel_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddTaxLevel_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADD_CUSTOMER_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADD_CUSTOMER_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>إضافة مستخدم</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>تعديل السلع</value>
+  </data>
+  <data name="SaveAndPrint" xml:space="preserve">
+    <value>Save And Print</value>
+  </data>
+  <data name="Plus_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plus_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="Saro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saro3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoToEdit" xml:space="preserve">
+    <value>الذهاب لصفحة التعديل</value>
+  </data>
+  <data name="PaymenInfo" xml:space="preserve">
+    <value>Payment Information</value>
+  </data>
+  <data name="NetAmount" xml:space="preserve">
+    <value>الكمية الكلية</value>
+  </data>
+  <data name="Purchasing" xml:space="preserve">
+    <value>الشراء</value>
+  </data>
+  <data name="AddPurchaseVoucher" xml:space="preserve">
+    <value>إضافة قسيمة شراء</value>
+  </data>
+  <data name="CustomerInfo" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="Saro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saro4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewCustomerAccountBalance" xml:space="preserve">
+    <value>رصيد حساب الزبون الجديد</value>
+  </data>
+  <data name="PaymentAmount" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="EditBill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditBill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADD_CUSTOMER_PAYMENT_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADD_CUSTOMER_PAYMENT_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CustomerAccBlnce" xml:space="preserve">
+    <value>Customer Account Balance</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="RequiredFld" xml:space="preserve">
+    <value />
+  </data>
+  <data name="REPORT_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REPORT_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckTime" xml:space="preserve">
+    <value>Check Time</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="AccountManagment_Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountManagment_Update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CustomerPhonePay" xml:space="preserve">
+    <value>Customer Phone</value>
+  </data>
+  <data name="AddCustomers_Bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomers_Bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentNum" xml:space="preserve">
+    <value>Payment Number Label</value>
+  </data>
+  <data name="Note1" xml:space="preserve">
+    <value>A Vendor Account Will Be Made Automatically</value>
+  </data>
+  <data name="VendorName" xml:space="preserve">
+    <value>Vendor Name</value>
+  </data>
+  <data name="CheckBill" xml:space="preserve">
+    <value>Check Bill</value>
+  </data>
+  <data name="SalesPrice" xml:space="preserve">
+    <value>Sales Price</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HolderName" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="CutrrentUser" xml:space="preserve">
+    <value>Cutrrent User</value>
+  </data>
+  <data name="VOUCHER_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VOUCHER_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnHandQty" xml:space="preserve">
+    <value>On Hand Quantity</value>
+  </data>
+  <data name="AddPayment_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddPayment_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdatePriviliges" xml:space="preserve">
+    <value>Update Priviliges</value>
+  </data>
+  <data name="ByVendor" xml:space="preserve">
+    <value>حسب البائع</value>
+  </data>
+  <data name="CheckedVoucher" xml:space="preserve">
+    <value>Checked Voucher</value>
+  </data>
+  <data name="AddNewItem" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="UpdateInfo" xml:space="preserve">
+    <value>Update Information</value>
+  </data>
+  <data name="Minus_Icon_Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minus_Icon_Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountManagmentIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountManagmentIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNewCustomer_Update1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewCustomer_Update1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnCheckedBills" xml:space="preserve">
+    <value>UnChecked Bills</value>
+  </data>
+  <data name="UnCheckedVoucher" xml:space="preserve">
+    <value>UnChecked Voucher</value>
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>PaymentDate</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>الدفع كاش</value>
+  </data>
+  <data name="ItemInfo" xml:space="preserve">
+    <value>معلومات السلعة</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="ReviseTime" xml:space="preserve">
+    <value>Revise Time</value>
+  </data>
+  <data name="x-Icon_Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-Icon_Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TotalTax" xml:space="preserve">
+    <value>Total Tax</value>
+  </data>
+  <data name="Minus_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minus_Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Update_Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update_Silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOUCH_SCREEN_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOUCH_SCREEN_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNewItemType_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewItemType_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="BillDiscount" xml:space="preserve">
+    <value>الخصم على الفاتورة</value>
+  </data>
+  <data name="Minus_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minus_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckDate" xml:space="preserve">
+    <value>Check Date</value>
+  </data>
+  <data name="ListCustomers" xml:space="preserve">
+    <value>List Customers</value>
+  </data>
+  <data name="CheckInfo" xml:space="preserve">
+    <value>Check Information</value>
+  </data>
+  <data name="CkeckedBills" xml:space="preserve">
+    <value>Ckecked Bills</value>
+  </data>
+  <data name="AddPayment" xml:space="preserve">
+    <value>إضافة دفعة</value>
+  </data>
+  <data name="ItemsPerPage" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="EditVendor_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditVendor_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCustomer" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="EditAdmin_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditAdmin_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Update_Icon_Piege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update_Icon_Piege.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoBarCode" xml:space="preserve">
+    <value>بدون بارجود</value>
+  </data>
+  <data name="ListVouchers" xml:space="preserve">
+    <value>List Vouchers</value>
+  </data>
+  <data name="SaveOnly" xml:space="preserve">
+    <value>Save Only</value>
+  </data>
+  <data name="RightToLeft" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="ADD_ITEMS_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADD_ITEMS_ICON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DateAdded" xml:space="preserve">
+    <value>Date Added</value>
+  </data>
+  <data name="Update_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Update_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddCustomerIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCustomerIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Users.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="ChoosBillToEdit_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChoosBillToEdit_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TaxLevel" xml:space="preserve">
+    <value>Tax Level</value>
+  </data>
+  <data name="FrmNmAccntMgmt" xml:space="preserve">
+    <value>إدارة الحساب</value>
+  </data>
+  <data name="FrmNmAddCustomerPayment" xml:space="preserve">
+    <value>إضافة دفعة زبون</value>
+  </data>
+  <data name="FrmNmAddDisposalReason" xml:space="preserve">
+    <value>إضافة سبب إتلاف</value>
+  </data>
+  <data name="FrmNmAddNewCategory" xml:space="preserve">
+    <value>إضافة تصنيف جديد</value>
+  </data>
+  <data name="FrmNmAddNewCustomer" xml:space="preserve">
+    <value>إضافة زبون جديد</value>
+  </data>
+  <data name="FrmNmAddNewItem" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="FrmNmAddNewItemType" xml:space="preserve">
+    <value>إضافة نوع سلعة جديد</value>
+  </data>
+  <data name="FrmNmAddNewPriceLevel" xml:space="preserve">
+    <value>إضافة مستوى سعر جديد</value>
+  </data>
+  <data name="FrmNmAddNewTaxLevel" xml:space="preserve">
+    <value>إضافة مستوى ضريبة جديد</value>
+  </data>
+  <data name="FrmNmAddNewUser" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="FrmNmAddNewVendorPayment" xml:space="preserve">
+    <value>إضافة دفعة بائع جديدة</value>
+  </data>
+  <data name="FrmNmDisposeItems" xml:space="preserve">
+    <value>إتلاف السلع</value>
+  </data>
+  <data name="FrmNmEditAdmins" xml:space="preserve">
+    <value>تعديل المدراء</value>
+  </data>
+  <data name="FrmNmEditBill" xml:space="preserve">
+    <value>تعديل الفواتير</value>
+  </data>
+  <data name="FrmNmEditCustomerPayment" xml:space="preserve">
+    <value>تعديل دفعة الزبون</value>
+  </data>
+  <data name="FrmNmEditCustomer" xml:space="preserve">
+    <value>تعديل زبون</value>
+  </data>
+  <data name="FrmNmEditDisposeItems" xml:space="preserve">
+    <value>تعديل السلع المتلفة</value>
+  </data>
+  <data name="FrmNmEditItems" xml:space="preserve">
+    <value>تعديل السلع</value>
+  </data>
+  <data name="FrmNmEditPurchaseVoucher" xml:space="preserve">
+    <value>تعديل قسيمة الشراع</value>
+  </data>
+  <data name="FrmNmEditReturnItemsCustomer" xml:space="preserve">
+    <value>تعديل السلع المستردة من الزبون</value>
+  </data>
+  <data name="FrmNmEditReturnItemsVendor" xml:space="preserve">
+    <value>تعديل السلع المستردة من البائع</value>
+  </data>
+  <data name="FrmNmEditReturnTouchScreenItems" xml:space="preserve">
+    <value>تعيل السرع المستردة شاشة لمس</value>
+  </data>
+  <data name="FrmNmEditUser" xml:space="preserve">
+    <value>تعديل المستخدم</value>
+  </data>
+  <data name="FrmNmEditVendor" xml:space="preserve">
+    <value>تعديل البائع</value>
+  </data>
+  <data name="FrmNmEditVendorPayment" xml:space="preserve">
+    <value>تعديل دفعة البائع</value>
+  </data>
+  <data name="FrmNmHomeScreen" xml:space="preserve">
+    <value>الشاشة الرئيسية</value>
+  </data>
+  <data name="FrmNmListBills" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="FrmNmListCustomers" xml:space="preserve">
+    <value>قائمة الزبائن</value>
+  </data>
+  <data name="FrmNmListItems" xml:space="preserve">
+    <value>قائمة المواد</value>
+  </data>
+  <data name="FrmNmListUsers" xml:space="preserve">
+    <value>فرز المستخديمن</value>
+  </data>
+  <data name="FrmNmListVendors" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="FrmNmListVouchers" xml:space="preserve">
+    <value>ءرز قسائم الشراع</value>
+  </data>
+  <data name="FrmNmLogin" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="FrmNmPointOfSale" xml:space="preserve">
+    <value>نقطة بيع</value>
+  </data>
+  <data name="FrmNmPOSTouchScreen" xml:space="preserve">
+    <value>شاشة اللمس</value>
+  </data>
+  <data name="FrmNmPrintingSettings" xml:space="preserve">
+    <value>إعدادات الطباعة</value>
+  </data>
+  <data name="FrmNmPurchaseVoucher" xml:space="preserve">
+    <value>قسيمة شراء</value>
+  </data>
+  <data name="FrmNmReports" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="FrmNmReturnItemsFromCustomer" xml:space="preserve">
+    <value>إعادة سلع من الزبون</value>
+  </data>
+  <data name="FrmNmReturnItemsToVendor" xml:space="preserve">
+    <value>إعادة سلع للبائع</value>
+  </data>
+  <data name="FrmNmWeightConfig" xml:space="preserve">
+    <value>إعدادات الوزن</value>
+  </data>
+  <data name="FrmNmWeightConfig2" xml:space="preserve">
+    <value>Weight Config2</value>
+  </data>
+  <data name="MsgAccountTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="MsgAddAnotherItemTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="MsgAddedSuccessfully" xml:space="preserve">
+    <value>أضيفت بنجاح</value>
+  </data>
+  <data name="MsgAddNewTxt" xml:space="preserve">
+    <value>إضافة جديدة</value>
+  </data>
+  <data name="MsgAlreadyUsedTxt" xml:space="preserve">
+    <value>مستخدم من قبل</value>
+  </data>
+  <data name="MsgBarcodeTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="MsgBillNumberNotExistTxt" xml:space="preserve">
+    <value>رقم الفاتورة غير موجود</value>
+  </data>
+  <data name="MsgCannotChangeAdminTxt" xml:space="preserve">
+    <value>لا يمكن تغيير المدير</value>
+  </data>
+  <data name="MsgCannotFindTxt" xml:space="preserve">
+    <value>لم يتم العثور عليه</value>
+  </data>
+  <data name="MsgCheckHolderNameTxt" xml:space="preserve">
+    <value>تأكد من اسم حامل الشيك</value>
+  </data>
+  <data name="MsgCustomerTxt" xml:space="preserve">
+    <value>الزبون</value>
+  </data>
+  <data name="MsgDataBaseErrorTxt" xml:space="preserve">
+    <value>خطأ في قاعدة البيانات</value>
+  </data>
+  <data name="MsgDescriptionTxt" xml:space="preserve">
+    <value>وصف</value>
+  </data>
+  <data name="MsgDidnotAdded" xml:space="preserve">
+    <value>لم يتم أية إضافة</value>
+  </data>
+  <data name="MsgDisposalReasonTxt" xml:space="preserve">
+    <value>سبب إتلاف</value>
+  </data>
+  <data name="MsgDoNotAcceptTxt" xml:space="preserve">
+    <value>لا توافق</value>
+  </data>
+  <data name="MsgErrorCaption" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="MsgErrorLoadingFrom" xml:space="preserve">
+    <value>خطأ في تحميل الصفحة</value>
+  </data>
+  <data name="MsgErrorPleaseEnterCorrectAmount" xml:space="preserve">
+    <value>خطأ الرجاء أدخل كمية صحيحة</value>
+  </data>
+  <data name="MsgFormWillCloseNowTxt" xml:space="preserve">
+    <value>سيتم إغلاق الصفحة الآن</value>
+  </data>
+  <data name="MsgIfNotBarChkWithoutBarcodeTxt" xml:space="preserve">
+    <value>إذا لم يتوفر لديك باركود اضغط على زر "بدون باركود"</value>
+  </data>
+  <data name="MsgInformationCaption" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="MsgItemCategoryTxt" xml:space="preserve">
+    <value>تصنيف السلعة</value>
+  </data>
+  <data name="MsgItemNotFoundTxt" xml:space="preserve">
+    <value>لم يتم العثور على السلعة</value>
+  </data>
+  <data name="MsgItemTypeTxt" xml:space="preserve">
+    <value>نوع السلعة</value>
+  </data>
+  <data name="MsgNameTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="MsgPercentageTxt" xml:space="preserve">
+    <value>النسبة</value>
+  </data>
+  <data name="MsgPhoneInUse" xml:space="preserve">
+    <value>رقم الهاتف مستخدم</value>
+  </data>
+  <data name="MsgPleaseAddAllRequiredFields" xml:space="preserve">
+    <value>الرجاء تعبئة جميع الخانات المطلوبة</value>
+  </data>
+  <data name="MsgPleaseAddCreditCardInfoTxt" xml:space="preserve">
+    <value>الرجاء إضافة معلومات البطاقة</value>
+  </data>
+  <data name="MsgPleaseSelectCorrectAmountTxt" xml:space="preserve">
+    <value>الرجاء اختيار كمية صحيحة</value>
+  </data>
+  <data name="MsgPleaseSelectTxt" xml:space="preserve">
+    <value>الرجاء اختيار</value>
+  </data>
+  <data name="MsgPleaseTryAgainLaterTxt" xml:space="preserve">
+    <value>الرجاء المحاولة لاحقاً</value>
+  </data>
+  <data name="MsgPriceLevelsTxt" xml:space="preserve">
+    <value>مستويات السعر</value>
+  </data>
+  <data name="MsgRenderPointTxt" xml:space="preserve">
+    <value>نقطة التقديم</value>
+  </data>
+  <data name="MsgSellingPriceTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="MsgUnexpectedError" xml:space="preserve">
+    <value>خطأ غير متوقع</value>
+  </data>
+  <data name="MsgUnitCostTxt" xml:space="preserve">
+    <value>سعر الوحدة</value>
+  </data>
+  <data name="MsgUpdateSuccessfully" xml:space="preserve">
+    <value>تم التحديث بنجاح!</value>
+  </data>
+  <data name="MsgUserTxt" xml:space="preserve">
+    <value>مستخدم</value>
+  </data>
+  <data name="MsgValidAccountTxt" xml:space="preserve">
+    <value>حساب فعال</value>
+  </data>
+  <data name="MsgValidQtyTxt" xml:space="preserve">
+    <value>كمية فعالة</value>
+  </data>
+  <data name="MsgVendorTxt" xml:space="preserve">
+    <value>بائع</value>
+  </data>
+  <data name="MsgWarningCaption" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="AccFrmAccntsMgmLblTxt" xml:space="preserve">
+    <value>إدارة الحسابات</value>
+  </data>
+  <data name="AccFrmAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="AccFrmUpdateBtnTxt" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="AddCstAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="AddCstCustomerInfoGBTxt" xml:space="preserve">
+    <value>معلومات الزبون</value>
+  </data>
+  <data name="AddCstNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddCstPhone1LblTxt" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="AddCstAddressLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AddCstEmailLblTxt" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="AddCstAddCustomerBtnLblTxt" xml:space="preserve">
+    <value>إضافة زبون جديد</value>
+  </data>
+  <data name="AddCstMakeUserAccountChkBoxTxt" xml:space="preserve">
+    <value>إضافة حساب زبون</value>
+  </data>
+  <data name="AddCstRequiredFieldLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddCstAddCustomerBtnTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="AddCstPytAccountBalanceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="AddCstPytAccountBalnaceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="AddCstPytAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="AddCstPytAddCustomerLblTxt" xml:space="preserve">
+    <value>دفعة زبون</value>
+  </data>
+  <data name="AddCstPytAddCustomerPaymentLblTxt" xml:space="preserve">
+    <value>اضافة دفعة</value>
+  </data>
+  <data name="AddCstPytCheckCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddCstPytCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="AddCstPytCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="AddCstPytCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="AddCstPytCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddCstPytCurrentUserTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="AddCstPytCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="AddCstPytCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="AddCstPytCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف الزبون</value>
+  </data>
+  <data name="AddCstPytgroupBox1Txt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="AddCstPytPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="AddCstPytPaymentAmountLblTxt" xml:space="preserve">
+    <value>مقدار الدفع</value>
+  </data>
+  <data name="AddCstPytPaymentCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddCstPytPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="AddCstPytPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="AddCstPytPaymentNumberLblTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="AddDsReAddDisposalReasonBtnTxt" xml:space="preserve">
+    <value>إضافة سبب إتلاف</value>
+  </data>
+  <data name="AddDsReDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddDsRelabel3Txt" xml:space="preserve">
+    <value>إضافة سبب إتلاف</value>
+  </data>
+  <data name="AddDsReNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddDsReRequiredFieldsLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddCatAddCategoryBtnTxt" xml:space="preserve">
+    <value>إضافة تصنيف</value>
+  </data>
+  <data name="AddCatDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddCatlabel3Txt" xml:space="preserve">
+    <value>إضافة تصنيف جديد</value>
+  </data>
+  <data name="AddCatNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddCatRequiredFieldsLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddItmAddItemBtnTxt" xml:space="preserve">
+    <value>إضافة سلعة</value>
+  </data>
+  <data name="AddItmAddNewCategoryBtnTxt" xml:space="preserve">
+    <value>إضافة تصنيف جديد</value>
+  </data>
+  <data name="AddItmAddNewItemLblTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="AddItmAddNewPriceLevelBtnTxt" xml:space="preserve">
+    <value>إضافة مستوى تسعيرة جديد</value>
+  </data>
+  <data name="AddItmAddNewTaxLevelBtnTxt" xml:space="preserve">
+    <value>إضافة مستوى ضريبة جديد</value>
+  </data>
+  <data name="AddItmAddNewTypeBtnTxt" xml:space="preserve">
+    <value>إضافة نوع جديد</value>
+  </data>
+  <data name="AddItmAddNewVendorBtnTxt" xml:space="preserve">
+    <value>إضافة بائع جديد</value>
+  </data>
+  <data name="AddItmAvgCostLblTxt" xml:space="preserve">
+    <value>متوسط السعر</value>
+  </data>
+  <data name="AddItmBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="AddItmCategoryLblTxt" xml:space="preserve">
+    <value>التصنيف</value>
+  </data>
+  <data name="AddItmDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddItmItemInfoGBTxt" xml:space="preserve">
+    <value>معلومات السلعة</value>
+  </data>
+  <data name="AddItmItemTypeLblTxt" xml:space="preserve">
+    <value>نوع السلعة</value>
+  </data>
+  <data name="AddItmMarginLblTxt" xml:space="preserve">
+    <value>سقف</value>
+  </data>
+  <data name="AddItmPricingGBTxt" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="AddItmPricingLblTxt" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="AddItmQtyLblTxt" xml:space="preserve">
+    <value>الكمية المتوفرة</value>
+  </data>
+  <data name="AddItmRequiredFieldLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddItmSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="AddItmTaxEnclodedChkBoxTxt" xml:space="preserve">
+    <value>شامل الضريبة</value>
+  </data>
+  <data name="AddItmTaxLevelLblTxt" xml:space="preserve">
+    <value>مستوى الضريبة</value>
+  </data>
+  <data name="AddItmVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="AddItmWeightChkBoxTxt" xml:space="preserve">
+    <value>الوزن</value>
+  </data>
+  <data name="AddItmWithoutBarcodeChkBoxTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="AddItmTypAddTypeBtnTxt" xml:space="preserve">
+    <value>إضافة نوع</value>
+  </data>
+  <data name="AddItmTypDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddItmTyplabel3Txt" xml:space="preserve">
+    <value>إضافة نوع بضاعة</value>
+  </data>
+  <data name="AddItmTypNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddPrcLvlAddNewPriceLevelBtnTxt" xml:space="preserve">
+    <value>إضافة مستوى تسعيرة جديد</value>
+  </data>
+  <data name="AddPrcLvlDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddPrcLvllabel3Txt" xml:space="preserve">
+    <value>إضافة مستوى سعر</value>
+  </data>
+  <data name="AddPrcLvlNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddUsrAddressLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AddUsrAddUserBtnTxt" xml:space="preserve">
+    <value>إضافة مستخدم</value>
+  </data>
+  <data name="AddUsrDescriptionlblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddUsrlabel3Txt" xml:space="preserve">
+    <value>إضافة مستخدم</value>
+  </data>
+  <data name="AddUsrNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddUsrPasswordLblTxt" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="AddUsrPhone1lblTxt" xml:space="preserve">
+    <value>هاتف 1</value>
+  </data>
+  <data name="AddUsrPhone2lblTxt" xml:space="preserve">
+    <value>هاتف 2</value>
+  </data>
+  <data name="AddUsrUserInfoGBTxt" xml:space="preserve">
+    <value>معلومات المستخدم</value>
+  </data>
+  <data name="AddUsrUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="AddTxLvlAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="AddTxLvlAddTaxBtnTxt" xml:space="preserve">
+    <value>إضافة ضريبة</value>
+  </data>
+  <data name="AddTxLvlDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="AddTxLvlPercentageLblTxt" xml:space="preserve">
+    <value>النسبة</value>
+  </data>
+  <data name="AddTxLvlRequiredFieldsLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddVndAddVendorBtnTxt" xml:space="preserve">
+    <value>اضافه</value>
+  </data>
+  <data name="AddVndAddVendorLblTxt" xml:space="preserve">
+    <value>مزود جديد</value>
+  </data>
+  <data name="AddVndCompanyLblTxt" xml:space="preserve">
+    <value>اسم التسويق</value>
+  </data>
+  <data name="AddVndCustomerInfoGBTxt" xml:space="preserve">
+    <value>معلومات الموزع</value>
+  </data>
+  <data name="AddVndEmailLblTxt" xml:space="preserve">
+    <value>الإيميل</value>
+  </data>
+  <data name="AddVndLocationLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AddVndNameLblTxt" xml:space="preserve">
+    <value>الاسم التجاري</value>
+  </data>
+  <data name="AddVndNote1Txt" xml:space="preserve">
+    <value>سيتم إنشاء حساب بائع</value>
+  </data>
+  <data name="AddVndPhone1LblTxt" xml:space="preserve">
+    <value>هاتف 1</value>
+  </data>
+  <data name="AddVndPhone2LbTxt" xml:space="preserve">
+    <value>هاتف 2</value>
+  </data>
+  <data name="AddVndRequiredFieldLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddVndPytAccountBalanceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="AddVndPytAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="AddVndPytAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة دفعة بائع</value>
+  </data>
+  <data name="AddVndPytAddPaymentBtnTxt" xml:space="preserve">
+    <value>إضافة دفعة</value>
+  </data>
+  <data name="AddVndPytAddVendorPaymentLblTxt" xml:space="preserve">
+    <value>إضافة دفعة بائع</value>
+  </data>
+  <data name="AddVndPytCashPaymentGBTxt" xml:space="preserve">
+    <value>دفعة كاش</value>
+  </data>
+  <data name="AddVndPytCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="AddVndPytCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="AddVndPytCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="AddVndPytChecksNOTETxt" xml:space="preserve">
+    <value>لن يتم تعديل الحسابات من الشيكات
+حتى يتم اعتمادها من صفحة الشيكات</value>
+  </data>
+  <data name="AddVndPytCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddVndPytCurrentUserTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="AddVndPytCurrentUserLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddVndPytgroupBox1Txt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="AddVndPytPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="AddVndPytPaymentAmountLblTxt" xml:space="preserve">
+    <value>مقدار الدفع</value>
+  </data>
+  <data name="AddVndPytPaymentCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="AddVndPytPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="AddVndPytPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="AddVndPytPaymentNumberLblTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="AddVndPytVendorCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="AddVndPytVendorNameLblTxt" xml:space="preserve">
+    <value>اسم البائع</value>
+  </data>
+  <data name="ChsBlBillNumberTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="ChsBlEditBillBtnTxt" xml:space="preserve">
+    <value>تعديل الفاتورة</value>
+  </data>
+  <data name="DisItmAddNewDisposalReasonBtnTxt" xml:space="preserve">
+    <value>إضافة سبب إتلاف جديد</value>
+  </data>
+  <data name="DisItmBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="DisItmBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="DisItmCancleBtnTxt" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="DisItmDisposalReasonLblTxt" xml:space="preserve">
+    <value>سبب إتلاف</value>
+  </data>
+  <data name="DisItmDisposeItemsLblTxt" xml:space="preserve">
+    <value>فاتورة اتلاف</value>
+  </data>
+  <data name="DisItmEscShortcutLblTxt" xml:space="preserve">
+    <value>ESC = إلغاء</value>
+  </data>
+  <data name="DisItmF2ShortcutLblTxt" xml:space="preserve">
+    <value>F2 = حفظ وطباعة</value>
+  </data>
+  <data name="DisItmF4ShortcutLblTxt" xml:space="preserve">
+    <value>F4 = حفظ بدون طباعة</value>
+  </data>
+  <data name="DisItmItemDescriptionLblTxt" xml:space="preserve">
+    <value>وصف السلعة</value>
+  </data>
+  <data name="DisItmItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="DisItmPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>حفظ وطباعة</value>
+  </data>
+  <data name="DisItmPaymentOnlyBtnTxt" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="DisItmSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="DisItmTotalBillLblTxt" xml:space="preserve">
+    <value>التكلفة الكلية</value>
+  </data>
+  <data name="DisItmTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="DisItmUserNameTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtDspItmBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="EdtDspItmCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="EdtDspItmCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtDspItmCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtDspItmChkBillBtnTxt" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
+  <data name="EdtDspItmChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtDspItmChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtDspItmChkedByTxt" xml:space="preserve">
+    <value>دققت بواسطة</value>
+  </data>
+  <data name="EdtDspItmChkedByUserNameLblTxt" xml:space="preserve">
+    <value>دققت بواسطة</value>
+  </data>
+  <data name="EdtDspItmDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtDspItmDisposalReasonLblTxt" xml:space="preserve">
+    <value>سبب إتلاف</value>
+  </data>
+  <data name="EdtDspItmEditDisposeItemsLblTxt" xml:space="preserve">
+    <value>تعديل السلع المتلفة</value>
+  </data>
+  <data name="EdtDspItmIsRevisedLblTxt" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="EdtDspItmlabel2Txt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtDspItmlabel3Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtDspItmlabel4Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtDspItmlabel5Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtDspItmPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>دفع وطباعة</value>
+  </data>
+  <data name="EdtDspItmPaymentGBTxt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtDspItmReviseBillBtnTxt" xml:space="preserve">
+    <value>مراجعة الفاتورة</value>
+  </data>
+  <data name="EdtDspItmReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtDspItmReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtDspItmRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtDspItmRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtDspItmReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtDspItmReviseLossProfitTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtDspItmReviseLossProfitLblTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtDspItmReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtDspItmReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtDspItmSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="EdtDspItmTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtDspItmTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtDspItmTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="EdtDspItmTotaltaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="EdtDspItmUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtItmAddNewCategoryBtnTxt" xml:space="preserve">
+    <value>إضافة تصنيف جديد</value>
+  </data>
+  <data name="EdtItmAddNewPriceLevelBtnTxt" xml:space="preserve">
+    <value>إضافة مستوى سعر جديد</value>
+  </data>
+  <data name="EdtItmAddNewTaxLevelBtnTxt" xml:space="preserve">
+    <value>إضافة مستوى ضريبة جديد</value>
+  </data>
+  <data name="EdtItmAddNewTypeBtnTxt" xml:space="preserve">
+    <value>إضافة نوع جديد</value>
+  </data>
+  <data name="EdtItmAddNewVendorBtnTxt" xml:space="preserve">
+    <value>إضافة بائع جديد</value>
+  </data>
+  <data name="EdtItmAvgCostLblTxt" xml:space="preserve">
+    <value>معدل السعر</value>
+  </data>
+  <data name="EdtItmBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="EdtItmBarcodeToEditLblTxt" xml:space="preserve">
+    <value>تعديل الباركود</value>
+  </data>
+  <data name="EdtItmByBarcDescChkBoxTxt" xml:space="preserve">
+    <value>حسب الباركود</value>
+  </data>
+  <data name="EdtItmCategoryLblTxt" xml:space="preserve">
+    <value>التصنيف</value>
+  </data>
+  <data name="EdtItmDateAddedLblTxt" xml:space="preserve">
+    <value>تاريخ الإضافة</value>
+  </data>
+  <data name="EdtItmDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="EdtItmEditItemsLblTxt" xml:space="preserve">
+    <value>تعديل السلع</value>
+  </data>
+  <data name="EdtItmItemDescriptionToEditLblTxt" xml:space="preserve">
+    <value>تعديل وصف السلع</value>
+  </data>
+  <data name="EdtItmItemInfoGBTxt" xml:space="preserve">
+    <value>وصف السلع</value>
+  </data>
+  <data name="EdtItmItemTypeLblTxt" xml:space="preserve">
+    <value>نوع السلع</value>
+  </data>
+  <data name="EdtItmMarginLblTxt" xml:space="preserve">
+    <value>الحد الأقصى</value>
+  </data>
+  <data name="EdtItmPricingGBTxt" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="EdtItmPricingLblTxt" xml:space="preserve">
+    <value>التسعيرة</value>
+  </data>
+  <data name="EdtItmQtyLblTxt" xml:space="preserve">
+    <value>الكمية المتوفرة</value>
+  </data>
+  <data name="EdtItmRenderPointLblTxt" xml:space="preserve">
+    <value>نقطة تقديم</value>
+  </data>
+  <data name="EdtItmRequiredFieldLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="EdtItmSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="EdtItmTaxEnclodedChkBoxTxt" xml:space="preserve">
+    <value>شامل الضريبة</value>
+  </data>
+  <data name="EdtItmTaxLevelLblTxt" xml:space="preserve">
+    <value>مستوى الضريبة</value>
+  </data>
+  <data name="EdtItmUpdateItemBtnTxt" xml:space="preserve">
+    <value>تحديث السلعة</value>
+  </data>
+  <data name="EdtItmVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="EdtItmWithoutBarcodeChkBoxTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="EdtRtnItmBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="EdtRtnItmCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtRtnItmCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmChkBillBtnTxt" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
+  <data name="EdtRtnItmChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtRtnItmChkedByUserNameLblTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtRtnItmCustomerAccountAmountTxt" xml:space="preserve">
+    <value>رصيد حساب الزبون</value>
+  </data>
+  <data name="EdtRtnItmCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="EdtRtnItmDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmEditReturnItemsCustomerLblTxt" xml:space="preserve">
+    <value>تعديل البضاعة المستردة</value>
+  </data>
+  <data name="EdtRtnItmIsRevisedLblTxt" xml:space="preserve">
+    <value>تمت مراجعتها</value>
+  </data>
+  <data name="EdtRtnItmlabel2Txt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtRtnItmlabel3Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmlabel4Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmlabel5Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>دفع وطباعة</value>
+  </data>
+  <data name="EdtRtnItmPaymentGBTxt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtRtnItmReviseBillBtnTxt" xml:space="preserve">
+    <value>مراجعة فاتورة</value>
+  </data>
+  <data name="EdtRtnItmReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtRtnItmReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtRtnItmRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtRtnItmRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtRtnItmReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtRtnItmReviseLossProfitTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtRtnItmReviseLossProfitLblTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtRtnItmReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtRtnItmReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtRtnItmSubTotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="EdtRtnItmTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtRtnItmTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="EdtRtnItmTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="EdtRtnItmUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtRtnItmVBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورى</value>
+  </data>
+  <data name="EdtRtnItmVCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtRtnItmVCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmVCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmVChkBillBtnTxt" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
+  <data name="EdtRtnItmVChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmVChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmVChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtRtnItmVChkedByUserNameLblTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtRtnItmVCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="EdtRtnItmVDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtRtnItmVEditReturnItemsCustomerLblTxt" xml:space="preserve">
+    <value>تعديل البضاعة المستردة</value>
+  </data>
+  <data name="EdtRtnItmVIsRevisedLblTxt" xml:space="preserve">
+    <value>تمت مراجعتها</value>
+  </data>
+  <data name="EdtRtnItmVlabel2Txt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtRtnItmVlabel3Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmVlabel4Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmVlabel5Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EdtRtnItmVPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>دفع وطباعة</value>
+  </data>
+  <data name="EdtRtnItmVPaymentGBTxt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtRtnItmVReviseBillBtnTxt" xml:space="preserve">
+    <value>مراجعة الفاتورة</value>
+  </data>
+  <data name="EdtRtnItmVReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtRtnItmVReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtRtnItmVRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtRtnItmVRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtRtnItmVReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtRtnItmVReviseLossProfitTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtRtnItmVReviseLossProfitLblTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtRtnItmVReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtRtnItmVReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtRtnItmVSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="EdtRtnItmVTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtRtnItmVTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtRtnItmVTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="EdtRtnItmVTotalTaxlblTxt" xml:space="preserve">
+    <value>المجموع الكلي</value>
+  </data>
+  <data name="EdtRtnItmVUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtRtnItmVVendorAccountAmountLblTxt" xml:space="preserve">
+    <value>رصيد حساب البائع</value>
+  </data>
+  <data name="EdtRtnItmVVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="EdtTchItmBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="EdtTchItmItemDescriptionLblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="EdtTchItmItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>سلع بدون باركود</value>
+  </data>
+  <data name="EdtUsrEditUsersLblTxt" xml:space="preserve">
+    <value>تعديل المستخدمين</value>
+  </data>
+  <data name="EdtUsrUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtUsrUserInfoGBTxt" xml:space="preserve">
+    <value>معلومات المستخدم</value>
+  </data>
+  <data name="EdtUsrPasswordLblTxt" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="EdtUsrDescriptionlblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="EdtUsrPhone2lblTxt" xml:space="preserve">
+    <value>هاتف 2 </value>
+  </data>
+  <data name="EdtUsrPhone1lblTxt" xml:space="preserve">
+    <value>هاتف 1</value>
+  </data>
+  <data name="EdtUsrAddressLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="EdtUsrNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtUsrEditAdminsBtnTxt" xml:space="preserve">
+    <value>تعديل المدراء</value>
+  </data>
+  <data name="EdtUsrPriviligesGBTxt" xml:space="preserve">
+    <value>الصلاحيات</value>
+  </data>
+  <data name="EdtUsrListCustomersTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="EdtUsrAddNewUserTxt" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="EdtUsrListVouchersTxt" xml:space="preserve">
+    <value>فرز قسائم الشراء</value>
+  </data>
+  <data name="EdtUsrReturnItemsVoucherTxt" xml:space="preserve">
+    <value>إعادة السلع</value>
+  </data>
+  <data name="EdtUsrEditBillsTxt" xml:space="preserve">
+    <value>تعديل فاتورة</value>
+  </data>
+  <data name="EdtUsrEditOrReturnVoucherTxt" xml:space="preserve">
+    <value>تعديل أو إرجاع قسيمة شراء</value>
+  </data>
+  <data name="EdtUsrListBillsTxt" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="EdtUsrPurchaseVoucherTxt" xml:space="preserve">
+    <value>قسيمة شراء</value>
+  </data>
+  <data name="EdtUsrListVendorsTxt" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="EdtUsrListItemsTxt" xml:space="preserve">
+    <value>فرز السلع</value>
+  </data>
+  <data name="EdtUsrEditVendorsTxt" xml:space="preserve">
+    <value>تعديل البائعين</value>
+  </data>
+  <data name="EdtUsrEditItemsTxt" xml:space="preserve">
+    <value>تعديل السلع</value>
+  </data>
+  <data name="EdtUsrEditCustomerTxt" xml:space="preserve">
+    <value>تعديل زبون</value>
+  </data>
+  <data name="EdtUsrEndOfDayTxt" xml:space="preserve">
+    <value>نهاية اليوم</value>
+  </data>
+  <data name="EdtUsrAddCustomerTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="EdtUsrFullSalesHistoryTxt" xml:space="preserve">
+    <value>تاريخ الصفقات </value>
+  </data>
+  <data name="EdtUsrReportsTxt" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="EdtUsrMySalesHistoryTxt" xml:space="preserve">
+    <value>تاريخ صفقاتي</value>
+  </data>
+  <data name="EdtUsrListUsersTxt" xml:space="preserve">
+    <value>فرز المستخدمين</value>
+  </data>
+  <data name="EdtUsrAddVendorTxt" xml:space="preserve">
+    <value>إضافة بائع</value>
+  </data>
+  <data name="EdtUsrAddNewITemTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة </value>
+  </data>
+  <data name="EdtUsrReturnHistoryTxt" xml:space="preserve">
+    <value>كشف تاريخ الاسترداد</value>
+  </data>
+  <data name="EdtUsrMakeASaleTxt" xml:space="preserve">
+    <value>اعقد صفقة</value>
+  </data>
+  <data name="EdtUsrUpdateInfoBtnTxt" xml:space="preserve">
+    <value>تحديث المعلومات</value>
+  </data>
+  <data name="EdtUsrUpdatePrivBtnTxt" xml:space="preserve">
+    <value>تحديث الصلاحيات</value>
+  </data>
+  <data name="EdtVndEditingLblTxt" xml:space="preserve">
+    <value>التعديل والتحرير</value>
+  </data>
+  <data name="EdtVndEditVendorLblTxt" xml:space="preserve">
+    <value>تعديل البائع</value>
+  </data>
+  <data name="EdtVndEmailLblTxt" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="EdtVndLocationLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="EdtVndNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtVndOldNameLblTxt" xml:space="preserve">
+    <value>الاسم القديم</value>
+  </data>
+  <data name="EdtVndPhone1LblTxt" xml:space="preserve">
+    <value>هاتف 1 </value>
+  </data>
+  <data name="EdtVndPhone2LbTxt" xml:space="preserve">
+    <value>هاتف 2</value>
+  </data>
+  <data name="EdtVndRequiredFieldLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="EdtVndUpdateVendorBtnTxt" xml:space="preserve">
+    <value>تحديث البائع</value>
+  </data>
+  <data name="EdtVndVendorInfoGBTxt" xml:space="preserve">
+    <value>معلومات البائع</value>
+  </data>
+  <data name="EdtVndPytAccountBalanceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="EdtVndPytAccountBalnaceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="EdtVndPytAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="EdtVndPytAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="EdtVndPytCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="EdtVndPytCheckCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtVndPytCheckGBTxt" xml:space="preserve">
+    <value>الشيك</value>
+  </data>
+  <data name="EdtVndPytCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="EdtVndPytCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtVndPytCheckNumberTxt" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="EdtVndPytCheckPaymentBtnTxt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtVndPytCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVndPytCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVndPytChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVndPytChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVndPytChkedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtVndPytChkedByUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtVndPytCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtVndPytCurrentBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الحالي</value>
+  </data>
+  <data name="EdtVndPytCurrentUserTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtVndPytCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtVndPytDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVndPytEditCustomerPaymentLblTxt" xml:space="preserve">
+    <value>تعديل دفعة الزبون</value>
+  </data>
+  <data name="EdtVndPytgroupBox1Txt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtVndPytNewBalanceLblTxt" xml:space="preserve">
+    <value>رصيد جديد</value>
+  </data>
+  <data name="EdtVndPytPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="EdtVndPytPaymentAmountLblTxt" xml:space="preserve">
+    <value>مقدار الدفع</value>
+  </data>
+  <data name="EdtVndPytPaymentCommentsLblTxt" xml:space="preserve">
+    <value>التعلقيات</value>
+  </data>
+  <data name="EdtVndPytPaymentDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVndPytPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtVndPytPaymentNumberLblTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="EdtVndPytReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtVndPytReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtVndPytRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtVndPytRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtVndPytReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtVndPytRevisePaymentBtnTxt" xml:space="preserve">
+    <value>مراجعة الدفعة</value>
+  </data>
+  <data name="EdtVndPytReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtVndPytReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtVndPytTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtVndPytTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVndPytVendorCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="EdtVndPytVendorNameLblTxt" xml:space="preserve">
+    <value>اسم البائع</value>
+  </data>
+  <data name="EdtVchAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="EdtVchAddNewItemLblTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="EdtVchBuyRateLblTxt" xml:space="preserve">
+    <value>مستوى البيع</value>
+  </data>
+  <data name="EdtVchCashInCurrencyTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="EdtVchCashInLblTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="EdtVchCashMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtVchCashPaymentGBTxt" xml:space="preserve">
+    <value>دفع كاش</value>
+  </data>
+  <data name="EdtVchCheckCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtVchCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="EdtVchCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="EdtVchCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtVchCheckNumberTxt" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="EdtVchCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVchCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVchChkBillBtnTxt" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
+  <data name="EdtVchChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVchChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVchChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtVchChkedByUserNameLblTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtVchCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="EdtVchCurrencyLblTxt" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="EdtVchCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtVchDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtVchDiscountLblTxt" xml:space="preserve">
+    <value>خصم</value>
+  </data>
+  <data name="EdtVchDiscountOnVouPercLblTxt" xml:space="preserve">
+    <value>خصم على قسيمة الشراء</value>
+  </data>
+  <data name="EdtVchExchangeLblTxt" xml:space="preserve">
+    <value>صرف</value>
+  </data>
+  <data name="EdtVchFeesLblTxt" xml:space="preserve">
+    <value>رسوم</value>
+  </data>
+  <data name="EdtVchgroupBox1Txt" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="EdtVchIsRevisedLblTxt" xml:space="preserve">
+    <value>مرجعة</value>
+  </data>
+  <data name="EdtVchItemsDiscountLblTxt" xml:space="preserve">
+    <value>خصم السلع</value>
+  </data>
+  <data name="EdtVchJODstaticTxt" xml:space="preserve">
+    <value>دينار</value>
+  </data>
+  <data name="EdtVchPayInVisaGBTxt" xml:space="preserve">
+    <value>دفع بالفيزا</value>
+  </data>
+  <data name="EdtVchPaymentCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtVchPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="EdtVchPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtVchReviseBillBtnTxt" xml:space="preserve">
+    <value>مراجعة فاتورة</value>
+  </data>
+  <data name="EdtVchReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtVchReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtVchRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtVchRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtVchReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtVchReviseLossProfitTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtVchReviseLossProfitLblTxt" xml:space="preserve">
+    <value>ربح وخسارة</value>
+  </data>
+  <data name="EdtVchReviseTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVchReviseTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVchSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="EdtVchSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="EdtVchTaxLblTxt" xml:space="preserve">
+    <value>الضريبة</value>
+  </data>
+  <data name="EdtVchTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtVchTellerUserNameLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtVchTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtVchTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="EdtVchTotalDiscountLblTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="EdtVchVendorAccountAmountLblTxt" xml:space="preserve">
+    <value>رصيد حساب البائع</value>
+  </data>
+  <data name="EdtVchVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="EdtVchVoucherNumberLblTxt" xml:space="preserve">
+    <value>رقم قسيمة الشراء</value>
+  </data>
+  <data name="LstBllCkeckedBillsChkBoxTxt" xml:space="preserve">
+    <value>فواتير الشيكات</value>
+  </data>
+  <data name="LstBllCreditBillsChkBoxTxt" xml:space="preserve">
+    <value>فواتير على الحساب</value>
+  </data>
+  <data name="LstBllCustomerNameChkBoxTxt" xml:space="preserve">
+    <value>رقم الزبون</value>
+  </data>
+  <data name="LstBllDateCheckBoxTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="LstBllDateFromLblTxt" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="LstBllDateToLblTxt" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="LstBllFiltersGBTxt" xml:space="preserve">
+    <value>خصائص البحث</value>
+  </data>
+  <data name="LstBllIsRevisedChkBoxTxt" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="LstBllItemsPerPageBtnTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstBllItemsPerPageLblTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstBllListBillsBtnTxt" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="LstBllListVouchersLblTxt" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="LstBllNextPageBtnTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="LstBllTellerNameChkBoxTxt" xml:space="preserve">
+    <value>اسم أمين الصندوق</value>
+  </data>
+  <data name="LstBllTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="LstBllTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="LstBllUncheckedBillChkBoxTxt" xml:space="preserve">
+    <value>فاتورة غير مدققة</value>
+  </data>
+  <data name="LstBllUnRevisedChkBoxTxt" xml:space="preserve">
+    <value>غير مراجعة</value>
+  </data>
+  <data name="LstCstItemsPerPageBtnTxt" xml:space="preserve">
+    <value>تغيير</value>
+  </data>
+  <data name="LstCstItemsPerPageLblTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstCstListCustomersBtnTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="LstCstListCustomersLblTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="LstCstNextPageBtnTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="LstCstTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="LstCstTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="LstItmItemsPerPageBtnTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstItmItemsPerPageLblTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstItmListItemsBtnTxt" xml:space="preserve">
+    <value>قائمة المواد</value>
+  </data>
+  <data name="LstItmListItemsLblTxt" xml:space="preserve">
+    <value>فرز السلع</value>
+  </data>
+  <data name="LstItmNextPageBtnTxt" xml:space="preserve">
+    <value>الصفحة التالي</value>
+  </data>
+  <data name="LstItmRndrPointChkBoxTxt" xml:space="preserve">
+    <value>نقطة التقديم</value>
+  </data>
+  <data name="LstItmTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="LstItmTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="LstUsrListUsersBtnTxt" xml:space="preserve">
+    <value>فرز المستخدمين</value>
+  </data>
+  <data name="LstUsrListUsersLblTxt" xml:space="preserve">
+    <value>فرز المستخدمين</value>
+  </data>
+  <data name="LstVndItemsPerPageBtnTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstVndItemsPerPageLblTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstVndListVendorsBtnTxt" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="LstVndListVendorsLblTxt" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="LstVndNextPageBtnTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="LstVndTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="LstVndTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="LoginLoginBtnTxt" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="MainPOSBtnTxt" xml:space="preserve">
+    <value>نقطة بيع</value>
+  </data>
+  <data name="MainmakeASaleToolStripMenuItemTxt" xml:space="preserve">
+    <value>أجر عملية بيع</value>
+  </data>
+  <data name="MainlistBillsToolStripMenuItemTxt" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="MaineditBillToolStripMenuItemTxt" xml:space="preserve">
+    <value>تعديل فاتورة</value>
+  </data>
+  <data name="MaineditTouchScreenItemsToolStripMenuItemTxt" xml:space="preserve">
+    <value>تعديل سلع شاشة اللمس</value>
+  </data>
+  <data name="MaintouchScreenToolStripMenuItemTxt" xml:space="preserve">
+    <value>شاشة اللمس</value>
+  </data>
+  <data name="MainInventoryBtnTxt" xml:space="preserve">
+    <value>جرد</value>
+  </data>
+  <data name="MainaddNewItemToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="MaineditItemsToolStripMenuItemTxt" xml:space="preserve">
+    <value>تعديل سلعة</value>
+  </data>
+  <data name="MainlistItemsToolStripMenuItemTxt" xml:space="preserve">
+    <value>فرز السلع</value>
+  </data>
+  <data name="MaindisposeItemsToolStripMenuItemTxt" xml:space="preserve">
+    <value>إتلاف سلع</value>
+  </data>
+  <data name="MainaccountsToolStripMenuItemTxt" xml:space="preserve">
+    <value>الأدوات</value>
+  </data>
+  <data name="MainweightSettingsToolStripMenuItemTxt" xml:space="preserve">
+    <value>خصائص الوزن</value>
+  </data>
+  <data name="MainpurchaseOrderToolStripMenuItemTxt" xml:space="preserve">
+    <value>ترتيب الشراء</value>
+  </data>
+  <data name="MainnewPurchaseVoucherToolStripMenuItemTxt" xml:space="preserve">
+    <value>قسيمة شراء جديدة</value>
+  </data>
+  <data name="MainlistVouchersToolStripMenuItemTxt" xml:space="preserve">
+    <value>فرز القسائم</value>
+  </data>
+  <data name="MainEmpControlTxt" xml:space="preserve">
+    <value>البائعون</value>
+  </data>
+  <data name="MainaddNewVendorToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة بائع جديد</value>
+  </data>
+  <data name="MainlistVendorsToolStripMenuItemTxt" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="MainvendorsDebitCreditToolStripMenuItemTxt" xml:space="preserve">
+    <value>خصم ائتمان البائع</value>
+  </data>
+  <data name="MainaddVendorPaymentToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة دفعة بائع</value>
+  </data>
+  <data name="MaincustomersToolStripMenuItemTxt" xml:space="preserve">
+    <value>الزبائن</value>
+  </data>
+  <data name="MainaddNewCustomerToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة زبون جديد</value>
+  </data>
+  <data name="MaineditCustomerToolStripMenuItemTxt" xml:space="preserve">
+    <value>تعديل زبون</value>
+  </data>
+  <data name="MainlistCustomersToolStripMenuItemTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="MainaddCustomerPaymentToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة دفعة زبون</value>
+  </data>
+  <data name="MaincustomerDebitCreditToolStripMenuItemTxt" xml:space="preserve">
+    <value>خصم ائتمان الزبون</value>
+  </data>
+  <data name="MaintoolsToolStripMenuItemTxt" xml:space="preserve">
+    <value>أدوات</value>
+  </data>
+  <data name="MainusersAndPriviligesToolStripMenuItemTxt" xml:space="preserve">
+    <value>مستخدمين وصلاحيات</value>
+  </data>
+  <data name="MaineditUsersToolStripMenuItemTxt" xml:space="preserve">
+    <value>تعديل المستخدمين</value>
+  </data>
+  <data name="MainaddNewUserToolStripMenuItemTxt" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="MainprintingSettingsToolStripMenuItemTxt" xml:space="preserve">
+    <value>خصائص الطباعة</value>
+  </data>
+  <data name="MainloginToolStripMenuItemTxt" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="MaintempLoginToolStripMenuItemTxt" xml:space="preserve">
+    <value>دخول مؤقت</value>
+  </data>
+  <data name="MainlogoutTempToolStripMenuItemTxt" xml:space="preserve">
+    <value>تسجيل خروج مؤقت</value>
+  </data>
+  <data name="MainwindowsToolStripMenuItemTxt" xml:space="preserve">
+    <value>أدوات الشاشات</value>
+  </data>
+  <data name="MainwindowsExplorerToolStripMenuItemTxt" xml:space="preserve">
+    <value>متصفح الشاشات</value>
+  </data>
+  <data name="MaincascadeToolStripMenuItemTxt" xml:space="preserve">
+    <value>تتابع</value>
+  </data>
+  <data name="MaintitleVerticalToolStripMenuItemTxt" xml:space="preserve">
+    <value>عنوان عمودي</value>
+  </data>
+  <data name="MaintitleHotizontalToolStripMenuItemTxt" xml:space="preserve">
+    <value>عنوان أفقي</value>
+  </data>
+  <data name="MainHomeToolStripMenuItemTxt" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="MainarrangeIconsToolStripMenuItemTxt" xml:space="preserve">
+    <value>ترتيب الأيقونات</value>
+  </data>
+  <data name="MaincloseAllToolStripMenuItem1Txt" xml:space="preserve">
+    <value>إغلاق النوافذ</value>
+  </data>
+  <data name="MainlogoutToolStripMenuItemTxt" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="MainexitToWindowsToolStripMenuItemTxt" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="MainTitleTxt" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="MainLogOutLabelTxt" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="MainUserLoggedTxtTxt" xml:space="preserve">
+    <value>المستخدم في النظام</value>
+  </data>
+  <data name="MainDkPOSGBTxt" xml:space="preserve">
+    <value>نقطة بيع</value>
+  </data>
+  <data name="MainDkAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="MainDkAddNewITemLblTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="MainDkAddVendorLblTxt" xml:space="preserve">
+    <value>إضافة بائع</value>
+  </data>
+  <data name="MainDkAddVendorPaymentLblTxt" xml:space="preserve">
+    <value>إضافة دفعة بائع</value>
+  </data>
+  <data name="MainDkCustomersGBTxt" xml:space="preserve">
+    <value>الزبائن</value>
+  </data>
+  <data name="MainDkEditCustomersLblTxt" xml:space="preserve">
+    <value>تعديل الزبائن</value>
+  </data>
+  <data name="MainDkInventoryGBTxt" xml:space="preserve">
+    <value>جرد</value>
+  </data>
+  <data name="MainDkListBillsLblTxt" xml:space="preserve">
+    <value>شاشة اللمس</value>
+  </data>
+  <data name="MainDkListCustomersLblTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="MainDkListItemsLblTxt" xml:space="preserve">
+    <value>فرز السلع</value>
+  </data>
+  <data name="MainDkListVendorsLblTxt" xml:space="preserve">
+    <value>فرز البائعين</value>
+  </data>
+  <data name="MainDkMakeSaleLblTxt" xml:space="preserve">
+    <value>أجر عملية بيع</value>
+  </data>
+  <data name="MainDkReportsGBTxt" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="MainDkReportsLblTxt" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="MainDkVendorsGBTxt" xml:space="preserve">
+    <value>بائعون</value>
+  </data>
+  <data name="POSAccountLblTxt" xml:space="preserve">
+    <value>حساب</value>
+  </data>
+  <data name="POSBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="POSBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="POSBuyRateLblTxt" xml:space="preserve">
+    <value>مستوى الشراء</value>
+  </data>
+  <data name="POSCancleBtnTxt" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="POSCashInLblTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="POSCashMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="POSCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="POSCheckCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="POSCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="POSCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="POSCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="POSCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="POSCurrencyLblTxt" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="POSCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="POSCustomerPhoneLblTxt" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="POSCustomersAccountAmountTxt" xml:space="preserve">
+    <value>رصيد حساب الزبون</value>
+  </data>
+  <data name="POSDiscountBillPercLblTxt" xml:space="preserve">
+    <value>نسبة الخصم على الفاتورة</value>
+  </data>
+  <data name="POSDiscountOnBillLblTxt" xml:space="preserve">
+    <value>الخصم على الفاتورة</value>
+  </data>
+  <data name="POSExchangeLblTxt" xml:space="preserve">
+    <value>صرف</value>
+  </data>
+  <data name="POSIsCreditLblTxt" xml:space="preserve">
+    <value>بطاقة مدفوعة مسبقاً</value>
+  </data>
+  <data name="POSItemDescriptionLblTxt" xml:space="preserve">
+    <value>وصف السلعة</value>
+  </data>
+  <data name="POSItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="POSNetAmountLblTxt" xml:space="preserve">
+    <value>السعر قبل الضريبة</value>
+  </data>
+  <data name="POSPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="POSPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>حفظ وطباعة</value>
+  </data>
+  <data name="POSPaymentCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات الدفع</value>
+  </data>
+  <data name="POSPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="POSPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="POSPaymentOnlyBtnTxt" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="POSPriceLevelLblTxt" xml:space="preserve">
+    <value>مستوى السعر</value>
+  </data>
+  <data name="POSPriceLvlDiscountLblTxt" xml:space="preserve">
+    <value>خصم مستوى السعر</value>
+  </data>
+  <data name="POSSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="POSSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="POSTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="POSTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="POSTotalDiscountLblTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="POSTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="POSUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="PrntStgBillsGBTxt" xml:space="preserve">
+    <value>الفواتير</value>
+  </data>
+  <data name="PrntStglabel1Txt" xml:space="preserve">
+    <value>Header 5</value>
+  </data>
+  <data name="PrntStglabel2Txt" xml:space="preserve">
+    <value>Header 4</value>
+  </data>
+  <data name="PrntStglabel3Txt" xml:space="preserve">
+    <value>Header 1</value>
+  </data>
+  <data name="PrntStglabel4Txt" xml:space="preserve">
+    <value>Header 2</value>
+  </data>
+  <data name="PrntStglabel5Txt" xml:space="preserve">
+    <value>Header 3</value>
+  </data>
+  <data name="PrntStglabel6Txt" xml:space="preserve">
+    <value>Footer 4</value>
+  </data>
+  <data name="PrntStglabel7Txt" xml:space="preserve">
+    <value>Footer 5</value>
+  </data>
+  <data name="PrntStglabel8Txt" xml:space="preserve">
+    <value>Footer 1</value>
+  </data>
+  <data name="PrntStglabel9Txt" xml:space="preserve">
+    <value>Footer 2</value>
+  </data>
+  <data name="PrntStglabel10Txt" xml:space="preserve">
+    <value>Footer 3</value>
+  </data>
+  <data name="PrntStgUpdateBillsBtnTxt" xml:space="preserve">
+    <value>تحديث الفواتير</value>
+  </data>
+  <data name="PrntStgReportsGBTxt" xml:space="preserve">
+    <value>إعدادات التقرير</value>
+  </data>
+  <data name="PrntStglabel11Txt" xml:space="preserve">
+    <value>Footer 3</value>
+  </data>
+  <data name="PrntStglabel12Txt" xml:space="preserve">
+    <value>Footer 2</value>
+  </data>
+  <data name="PrntStglabel13Txt" xml:space="preserve">
+    <value>Header 3</value>
+  </data>
+  <data name="PrntStglabel14Txt" xml:space="preserve">
+    <value>Footer 1</value>
+  </data>
+  <data name="PrntStglabel15Txt" xml:space="preserve">
+    <value>Header 2</value>
+  </data>
+  <data name="PrntStglabel16Txt" xml:space="preserve">
+    <value>Footer 5</value>
+  </data>
+  <data name="PrntStglabel17Txt" xml:space="preserve">
+    <value>Header 1</value>
+  </data>
+  <data name="PrntStglabel18Txt" xml:space="preserve">
+    <value>Footer 4</value>
+  </data>
+  <data name="PrntStglabel19Txt" xml:space="preserve">
+    <value>Header 5</value>
+  </data>
+  <data name="PrntStglabel20Txt" xml:space="preserve">
+    <value>Header 4</value>
+  </data>
+  <data name="PrntStgUpdateReportsBtnTxt" xml:space="preserve">
+    <value>تحديث التقارير</value>
+  </data>
+  <data name="PrchVchAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="PrchVchAddNewItemLblTxt" xml:space="preserve">
+    <value>إضافة سلعة جديدة</value>
+  </data>
+  <data name="PrchVchAddVoucherAndPrintBtnTxt" xml:space="preserve">
+    <value>حفظ وطباعة</value>
+  </data>
+  <data name="PrchVchAddVoucherNoPrintBtnTxt" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="PrchVchBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="PrchVchCashInCurrencyTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="PrchVchCashInLblTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="PrchVchCashMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="PrchVchCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="PrchVchCheckCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+   <data name="CommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="PrchVchCheckGBTxt" xml:space="preserve">
+    <value>الشيك</value>
+  </data>
+  <data name="PrchVchCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="PrchVchCheckNumberTxt" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="PrchVchCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="PrchVchDiscountLblTxt" xml:space="preserve">
+    <value>خصم</value>
+  </data>
+  <data name="PrchVchDiscountOnVouPercLblTxt" xml:space="preserve">
+    <value>نسبة الخصم %</value>
+  </data>
+  <data name="PrchVchExchangeLblTxt" xml:space="preserve">
+    <value>صرف</value>
+  </data>
+  <data name="PrchVchFeesLblTxt" xml:space="preserve">
+    <value>رسوم</value>
+  </data>
+  <data name="PrchVchgroupBox1Txt" xml:space="preserve">
+    <value>دفع</value>
+  </data>
+  <data name="PrchVchIsCreditLblTxt" xml:space="preserve">
+    <value>بطاقة مدفوعة مسبقاً</value>
+  </data>
+  <data name="PrchVchItemDescriptionLblTxt" xml:space="preserve">
+    <value>وصف السلعة</value>
+  </data>
+  <data name="PrchVchItemsDiscountLblTxt" xml:space="preserve">
+    <value>خصم على السلعة</value>
+  </data>
+  <data name="PrchVchItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="PrchVchJODstaticTxt" xml:space="preserve">
+    <value>دينار</value>
+  </data>
+  <data name="PrchVchPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="PrchVchPaymentCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات الدفع</value>
+  </data>
+  <data name="PrchVchPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="PrchVchPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="PrchVchSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="PrchVchTaxLblTxt" xml:space="preserve">
+    <value>الضريبة</value>
+  </data>
+  <data name="PrchVchTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="PrchVchTotalDiscountLblTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="PrchVchVendorAccountAmountLblTxt" xml:space="preserve">
+    <value>رصيد حساب البائع</value>
+  </data>
+  <data name="PrchVchVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="PrchVchVoucherNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="ReprtAllTellersChkBoxTxt" xml:space="preserve">
+    <value>كل أمناء الصناديق</value>
+  </data>
+  <data name="ReprtColorsChkBoxTxt" xml:space="preserve">
+    <value>الألوان</value>
+  </data>
+  <data name="ReprtComparisonLblTxt" xml:space="preserve">
+    <value>المقارنة</value>
+  </data>
+  <data name="ReprtCustomerNamechkBoxTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="ReprtCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="ReprtCustomerOptionsGBTxt" xml:space="preserve">
+    <value>خيارات الزبون</value>
+  </data>
+  <data name="ReprtCustomerPhoneLblTxt" xml:space="preserve">
+    <value>رقم الزبون</value>
+  </data>
+  <data name="ReprtDateLblTxt" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="ReprtDateToLblTxt" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="ReprtLayoutOptionsTxt" xml:space="preserve">
+    <value>خصائص العرض</value>
+  </data>
+  <data name="ReprtNumberOfItemsLblTxt" xml:space="preserve">
+    <value>عدد السلع</value>
+  </data>
+  <data name="ReprtPrintToThermalBtnTxt" xml:space="preserve">
+    <value>طباعة حرارية</value>
+  </data>
+  <data name="ReprtReportNameLblTxt" xml:space="preserve">
+    <value>اسم التقرير</value>
+  </data>
+  <data name="ReprtRTLChkBoxTxt" xml:space="preserve">
+    <value>من اليمين لليسار</value>
+  </data>
+  <data name="ReprtSaveAsBtnTxt" xml:space="preserve">
+    <value>حفظ باسم</value>
+  </data>
+  <data name="ReprtStatisticsGBTxt" xml:space="preserve">
+    <value>إحصائيات</value>
+  </data>
+  <data name="ReprtTableBorderChkBoxTxt" xml:space="preserve">
+    <value>حدود الجدول</value>
+  </data>
+  <data name="ReprtTellerGBTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="ReprtThermalPrinterChkBoxTxt" xml:space="preserve">
+    <value>طابعة حرارية</value>
+  </data>
+  <data name="ReprtVendorNameLblTxt" xml:space="preserve">
+    <value>اسم البائع</value>
+  </data>
+  <data name="ReprtVendorsOptionsGBTxt" xml:space="preserve">
+    <value>خيارات البائع</value>
+  </data>
+  <data name="ReprtViewBtnTxt" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="RetItmCstReturnItemsCustomerLblTxt" xml:space="preserve">
+    <value>استرداد سلع</value>
+  </data>
+  <data name="RetItmCstBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="RetItmCstUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="RetItmCstTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="RetItmCstItemDescriptionLblTxt" xml:space="preserve">
+    <value>وصف السلع</value>
+  </data>
+  <data name="RetItmCstBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="RetItmCstItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="RetItmCstCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف الزبون</value>
+  </data>
+  <data name="RetItmCstCustomersAccountAmountTxt" xml:space="preserve">
+    <value>رصيد حساب الزبون</value>
+  </data>
+  <data name="RetItmCstCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="RetItmCstSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="RetItmCstTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="RetItmCstTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="RetItmCstCancleBtnTxt" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="RetItmCstPaymentOnlyBtnTxt" xml:space="preserve">
+    <value>دفع فقط</value>
+  </data>
+  <data name="RetItmCstPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>دفع وطباعة</value>
+  </data>
+  <data name="RetItmVndReturnItemsVendorLblTxt" xml:space="preserve">
+    <value>استرداد سلع من البائع</value>
+  </data>
+  <data name="RetItmVndBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="RetItmVndUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="RetItmVndTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="RetItmVndItemDescriptionLblTxt" xml:space="preserve">
+    <value>وصف السلع</value>
+  </data>
+  <data name="RetItmVndBarcodeLblTxt" xml:space="preserve">
+    <value>باركود</value>
+  </data>
+  <data name="RetItmVndItemsWithoutBarcodeLblTxt" xml:space="preserve">
+    <value>بدون باركود</value>
+  </data>
+  <data name="RetItmVndCompanyLblTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="RetItmVndVendorAccountAmountLblTxt" xml:space="preserve">
+    <value>رصيد حساب البائع</value>
+  </data>
+  <data name="RetItmVndVendorLblTxt" xml:space="preserve">
+    <value>البائع</value>
+  </data>
+  <data name="RetItmVndSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="RetItmVndTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="RetItmVndTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="RetItmVndCancleBtnTxt" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="RetItmVndPaymentOnlyBtnTxt" xml:space="preserve">
+    <value>دفع فقط</value>
+  </data>
+  <data name="RetItmVndPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>دفع وطباعة</value>
+  </data>
+  <data name="TchScrPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="TchScrAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="TchScrCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف المستخدم</value>
+  </data>
+  <data name="TchScrCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="TchScrCustomersAccountAmountTxt" xml:space="preserve">
+    <value>رصيد حساب الزبون</value>
+  </data>
+  <data name="TchScrCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="TchScrCashMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="TchScrCashInLblTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="TchScrExchangeLblTxt" xml:space="preserve">
+    <value>صرف</value>
+  </data>
+  <data name="TchScrCurrencyLblTxt" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="TchScrSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="TchScrBuyRateLblTxt" xml:space="preserve">
+    <value>مستوى الشراء</value>
+  </data>
+  <data name="TchScrIsCreditLblTxt" xml:space="preserve">
+    <value>بطاقة مدفوعة مسبقاً</value>
+  </data>
+  <data name="TchScrCheckGBTxt" xml:space="preserve">
+    <value>الشيك</value>
+  </data>
+  <data name="TchScrCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="TchScrCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="TchScrPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="TchScrCheckCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="TchScrPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="TchScrPaymentCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="TchScrEnableNumpadChkBoxTxt" xml:space="preserve">
+    <value>تفعيل لوحة الأرقام</value>
+  </data>
+  <data name="TchScrBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="TchScrUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="TchScrTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="TchScrSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="TchScrDiscountBillPercLblTxt" xml:space="preserve">
+    <value>الخصم %</value>
+  </data>
+  <data name="TchScrDiscountOnBillLblTxt" xml:space="preserve">
+    <value>الخصم على الفاتورة</value>
+  </data>
+  <data name="TchScrPriceLevelLblTxt" xml:space="preserve">
+    <value>مستوى الدفع</value>
+  </data>
+  <data name="TchScrPriceLvlDiscountLblTxt" xml:space="preserve">
+    <value>الخصم على مستوى الدفع</value>
+  </data>
+  <data name="TchScrTotalDiscountLblTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="TchScrNetAmountLblTxt" xml:space="preserve">
+    <value>السعر قبل الضريبة</value>
+  </data>
+  <data name="TchScrTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="TchScrTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="TchScrlabel2Txt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TchScrCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="TchScrCancleBtnTxt" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="TchScrPaymentOnlyBtnTxt" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="TchScrPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>حفظ وطباعة</value>
+  </data>
+  <data name="W8CnfBarcodeLengthLblTxt" xml:space="preserve">
+    <value>طول الباركود</value>
+  </data>
+  <data name="W8CnfDivisionScaleLblTxt" xml:space="preserve">
+    <value>مقياس التقسيم</value>
+  </data>
+  <data name="W8CnfUpdateBtnLblTxt" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="AddItmRenderPointLblTxt" xml:space="preserve">
+    <value>نقطة تقديم</value>
+  </data>
+  <data name="AccFrmAmountLblTxt" xml:space="preserve">
+    <value>الرصيد</value>
+  </data>
+  <data name="LstVchByVendorNameChkBoxTxt" xml:space="preserve">
+    <value>حسب البائع</value>
+  </data>
+  <data name="LstVchCheckedChkBoxTxt" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="LstVchDateCheckBoxTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="LstVchFiltersGBTxt" xml:space="preserve">
+    <value>خصائص البحث</value>
+  </data>
+  <data name="LstVchIsRevisedChkBoxTxt" xml:space="preserve">
+    <value>تمت مراجعتها</value>
+  </data>
+  <data name="LstVchItemsPerPageBtnTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstVchItemsPerPageLblTxt" xml:space="preserve">
+    <value>السلع لكل صفحة</value>
+  </data>
+  <data name="LstVchListVouchersBtnTxt" xml:space="preserve">
+    <value>فرز القسائم</value>
+  </data>
+  <data name="LstVchListVouchersLblTxt" xml:space="preserve">
+    <value>فرز القسائم</value>
+  </data>
+  <data name="LstVchNextPageBtnTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="LstVchTellerNameChkBoxTxt" xml:space="preserve">
+    <value>اسم أمين الصندوق</value>
+  </data>
+  <data name="LstVchTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="LstVchTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="LstVchUncheckedVouchersChkBoxTxt" xml:space="preserve">
+    <value>قسائم غير مراجعة</value>
+  </data>
+  <data name="LstVchUnRevisedChkBoxTxt" xml:space="preserve">
+    <value>غير مراجعة</value>
+  </data>
+  <data name="EdtBllAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="EdtBllAddNewItemLblTxt" xml:space="preserve">
+    <value>تعديل الفتورة</value>
+  </data>
+  <data name="EdtBllBillNumberLblTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="EdtBllBuyRateLblTxt" xml:space="preserve">
+    <value>مستوى الشراء</value>
+  </data>
+  <data name="EdtBllCashInCurrencyTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="EdtBllCashInLblTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="EdtBllCashMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtBllCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="EdtBllCheckCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtBllCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="EdtBllCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="EdtBllCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtBllCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="EdtBllChkBillBtnTxt" xml:space="preserve">
+    <value>فاتورة الشيك</value>
+  </data>
+  <data name="EdtBllChkDateTxt" xml:space="preserve">
+    <value>تاريخ الشيك</value>
+  </data>
+  <data name="EdtBllChkDateLblTxt" xml:space="preserve">
+    <value>تاريخ الشيك</value>
+  </data>
+  <data name="EdtBllChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtBllChkedByUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم للمدقق</value>
+  </data>
+  <data name="EdtBllCurrencyLblTxt" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="EdtBllCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtBllCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="EdtBllCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف الزبون</value>
+  </data>
+  <data name="EdtBllCustomersAccountAmountTxt" xml:space="preserve">
+    <value>رصيد حساب الزبون</value>
+  </data>
+  <data name="EdtBllDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtBllDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtBllDiscountBillPercLblTxt" xml:space="preserve">
+    <value>نسبة خصم الفاتورة</value>
+  </data>
+  <data name="EdtBllDiscountOnBillLblTxt" xml:space="preserve">
+    <value>الخصم على الفاتورة</value>
+  </data>
+  <data name="EdtBllExchangeLblTxt" xml:space="preserve">
+    <value>تبادل</value>
+  </data>
+  <data name="EdtBllgroupBox1Txt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtBllIsCreditLblTxt" xml:space="preserve">
+    <value>بطاقات مدفوعة مسبقاً</value>
+  </data>
+  <data name="EdtBllIsRevisedLblTxt" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="EdtBllJODstaticTxt" xml:space="preserve">
+    <value>دينار</value>
+  </data>
+  <data name="EdtBllNetAmountLblTxt" xml:space="preserve">
+    <value>الرصيد الكلي</value>
+  </data>
+  <data name="EdtBllPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="EdtBllPaymentAndPrintBtnTxt" xml:space="preserve">
+    <value>إعادة طباعة</value>
+  </data>
+  <data name="EdtBllPaymentCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات الدفع</value>
+  </data>
+  <data name="EdtBllPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="EdtBllPaymentGBTxt" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="EdtBllPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtBllPriceLevelLblTxt" xml:space="preserve">
+    <value>مستوى السعر</value>
+  </data>
+  <data name="EdtBllPriceLvlDiscountLblTxt" xml:space="preserve">
+    <value>خصم مستوى السعر</value>
+  </data>
+  <data name="EdtBllReviseBillBtnTxt" xml:space="preserve">
+    <value>مراجعة الفاتورة</value>
+  </data>
+  <data name="EdtBllReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtBllReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtBllRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtBllRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtBllReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtBllReviseLossProfitTxt" xml:space="preserve">
+    <value>الربح والخسارة</value>
+  </data>
+  <data name="EdtBllReviseLossProfitLblTxt" xml:space="preserve">
+    <value>الربح والخسارة</value>
+  </data>
+  <data name="EdtBllSellPriceLblTxt" xml:space="preserve">
+    <value>سعر البيع</value>
+  </data>
+  <data name="EdtBllSubtotalLblTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="EdtBllTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtBllTellerUserNameLblTxt" xml:space="preserve">
+    <value>اسم أمين الصندوق</value>
+  </data>
+  <data name="EdtBllTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtBllTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtBllTotalBillLblTxt" xml:space="preserve">
+    <value>الفاتورة الكلية</value>
+  </data>
+  <data name="EdtBllTotalDiscountLblTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="EdtBllTotalTaxlblTxt" xml:space="preserve">
+    <value>الضريبة الكلية</value>
+  </data>
+  <data name="EdtBllUserNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtBllCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtCstAddressLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="EdtCstCustomerInfoGBTxt" xml:space="preserve">
+    <value>معلومات الزبون</value>
+  </data>
+  <data name="EdtCstEditCustomersLblTxt" xml:space="preserve">
+    <value>تعديل الزبون</value>
+  </data>
+  <data name="EdtCstEmailLblTxt" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="EdtCstErr1Txt" xml:space="preserve">
+    <value>لا يمكنك إزالة حساب زبون</value>
+  </data>
+  <data name="EdtCstMakeUserAccountChkBoxTxt" xml:space="preserve">
+    <value>إنشاء حساب زبون</value>
+  </data>
+  <data name="EdtCstNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtCstPhone1ComboBoxlblTxt" xml:space="preserve">
+    <value>هاتف 1</value>
+  </data>
+  <data name="EdtCstPhone1LblTxt" xml:space="preserve">
+    <value>هاتف 1 </value>
+  </data>
+  <data name="EdtCstUpdateCustomerBtnTxt" xml:space="preserve">
+    <value>تحديث الزبون</value>
+  </data>
+  <data name="MsgAlreadyCheckedTxt" xml:space="preserve">
+    <value>مدققة مسبقاً</value>
+  </data>
+  <data name="MsgAlreadyReversedTxt" xml:space="preserve">
+    <value>مراجعة مسبقاً</value>
+  </data>
+  <data name="MsgCheckedSuccesfullyTxt" xml:space="preserve">
+    <value>دققت بنجاح</value>
+  </data>
+  <data name="MsgReversedSuccessfullyTxt" xml:space="preserve">
+    <value>تم التراجع عنها بنجاح</value>
+  </data>
+  <data name="MsgNotUsedTxt" xml:space="preserve">
+    <value>غير مستعمل</value>
+  </data>
+  <data name="MsgItemTxt" xml:space="preserve">
+    <value>بضاعة</value>
+  </data>
+  <data name="MsgPrivUserNotAllowedTxt" xml:space="preserve">
+    <value>المستخدم الحالي لا يمتلك الصلاحية </value>
+  </data>
+  <data name="MsgPhoneTxt" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="MsgCompanyTxt" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="MsgShouldNotBeLessThanTxt" xml:space="preserve">
+    <value>لا يجب أن تكون أقل من</value>
+  </data>
+  <data name="MsgAlreadyTempUserTxt" xml:space="preserve">
+    <value>مستخدم مؤقت مسبقاً</value>
+  </data>
+  <data name="MsgNotFoundTxt" xml:space="preserve">
+    <value>لم يعثر عليه</value>
+  </data>
+  <data name="MsgIncorrectTxt" xml:space="preserve">
+    <value>غير صحيح</value>
+  </data>
+  <data name="MsgOrTxt" xml:space="preserve">
+    <value>أو</value>
+  </data>
+  <data name="MsgUsrNameTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="MsgPasswordTxt" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="MsgCannotBeCalculatedTxt" xml:space="preserve">
+    <value>لا يمكن حسابها</value>
+  </data>
+  <data name="MsgDoNotHaveAccountTxt" xml:space="preserve">
+    <value>لا يتملك حساب</value>
+  </data>
+  <data name="MsgPaymentMethodTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="MsgNotItemsTxt" xml:space="preserve">
+    <value>لا بضائع</value>
+  </data>
+  <data name="MsgCashLargerThanTotAmtTxt" xml:space="preserve">
+    <value>المبلغ أكبر من المجموع الكلي</value>
+  </data>
+  <data name="MsgSureToTakePaymentTxt" xml:space="preserve">
+    <value>تأكد من أخذ الدفعة</value>
+  </data>
+  <data name="MsgTotalAmountTxt" xml:space="preserve">
+    <value>المجموع الكلي</value>
+  </data>
+  <data name="MsgExchangeTxt" xml:space="preserve">
+    <value>تبادل</value>
+  </data>
+  <data name="MsgCurrencyTxt" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="MsgTransactionNotAddedSuccessfullyTxt" xml:space="preserve">
+    <value>لم يتم إضافة النقلة بنجاح</value>
+  </data>
+  <data name="MsgPrintingErrorTxt" xml:space="preserve">
+    <value>خطأ في الطباعة</value>
+  </data>
+  <data name="MsgChequeTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="MsgNotAddedTxt" xml:space="preserve">
+    <value>لم يتم إضافتها</value>
+  </data>
+  <data name="MsgReportTxt" xml:space="preserve">
+    <value>تقرير</value>
+  </data>
+  <data name="MsgNoDataTxt" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="MsgDateFromTxt" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="MsgDateToTxt" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="MsgNumberOfItemsPerPageTxt" xml:space="preserve">
+    <value>عدد البضاعة في كل صفحة</value>
+  </data>
+  <data name="MsgDesiredListTxt" xml:space="preserve">
+    <value>القائمة المرغوبة</value>
+  </data>
+  <data name="MsgPleaseCheckSQLServicTxt" xml:space="preserve">
+    <value>الرجاء فحص خدمة قاعدة البيانات</value>
+  </data>
+  <data name="MsgUnregisteredVersionTxt" xml:space="preserve">
+    <value>نسخة غير مسجلة</value>
+  </data>
+  <data name="MsgRegisteredToTxt" xml:space="preserve">
+    <value>مسجل لـ</value>
+  </data>
+  <data name="MsgTrialTxt" xml:space="preserve">
+    <value>تجربة</value>
+  </data>
+  <data name="MsgYouReachedTxt" xml:space="preserve">
+    <value>لقد وصلت</value>
+  </data>
+  <data name="MsgCannotAddMoreItmsForTrialVersionTxt" xml:space="preserve">
+    <value>لا يمكنك إضافة بضاعة جديدة في النسخة التجريبية</value>
+  </data>
+  <data name="MsgTrialAllowedItemsTxt" xml:space="preserve">
+    <value>البضائع المسموحة للنسخة التجريبية</value>
+  </data>
+  <data name="MsgYouShouldActivateNowTxt" xml:space="preserve">
+    <value>يجب عليك أن تفعل البرنامج الآن</value>
+  </data>
+  <data name="NEWCannotEditAdminsTxt" xml:space="preserve">
+    <value>لا يمكن تعديل المدراء</value>
+  </data>
+  <data name="NEWYesTxt" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="NEWNoTxt" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="POSOpenChashBtnTxt" xml:space="preserve">
+    <value>افتح الصندوق</value>
+  </data>
+  <data name="PrchVchOpenChashBtnTxt" xml:space="preserve">
+    <value>افتح الصندوق</value>
+  </data>
+  <data name="TchScrOpenCashBtnTxt" xml:space="preserve">
+    <value>افتح الصندوق</value>
+  </data>
+  <data name="FrmNmAddNewVendor" xml:space="preserve">
+    <value>إضافة بائع جديد</value>
+  </data>
+  <data name="AddPrcLvlRequiredFieldsLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="AddItmTypRequiredFieldsLblTxt" xml:space="preserve">
+    <value>خانات مطلوبة</value>
+  </data>
+  <data name="EdtAdmAddCustomerLblTxt" xml:space="preserve">
+    <value>تعديل المسؤولين</value>
+  </data>
+  <data name="EdtAdmAddressLblTxt" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="EdtAdmAdminCheckBoxTxt" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="EdtAdmDescriptionlblTxt" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="EdtAdmEditAdminsCheckBoxTxt" xml:space="preserve">
+    <value>تعديل المدراء</value>
+  </data>
+  <data name="EdtAdmMakeAdminGBTxt" xml:space="preserve">
+    <value>تعيين كمدير</value>
+  </data>
+  <data name="EdtAdmNameLblTxt" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="EdtAdmPasswordLblTxt" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="EdtAdmPhone1lblTxt" xml:space="preserve">
+    <value>هاتف1</value>
+  </data>
+  <data name="EdtAdmPhone2lblTxt" xml:space="preserve">
+    <value>هاتف2</value>
+  </data>
+  <data name="EdtAdmUpdateInfoBtnTxt" xml:space="preserve">
+    <value>تحديث المعلومات</value>
+  </data>
+  <data name="EdtAdmUpdatePrivBtnTxt" xml:space="preserve">
+    <value>تحديث الصلاحيات</value>
+  </data>
+  <data name="EdtAdmUserInfoGBTxt" xml:space="preserve">
+    <value>معلومات المستخدم</value>
+  </data>
+  <data name="EdtAdmUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="PrchVchCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtBllReprintBtnTxt" xml:space="preserve">
+    <value>إعادة الطباعة</value>
+  </data>
+  <data name="EdtCstAccountBalanceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="EdtCstAccountBalnaceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="EdtCstAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="EdtCstAddCustomerLblTxt" xml:space="preserve">
+    <value>إضافة زبون</value>
+  </data>
+  <data name="EdtCstAddCustomerPaymentLblTxt" xml:space="preserve">
+    <value>إضافة دفعة زبون</value>
+  </data>
+  <data name="EdtCstBankLblTxt" xml:space="preserve">
+    <value>البنك</value>
+  </data>
+  <data name="EdtCstCashPaymentGBTxt" xml:space="preserve">
+    <value>الدفع نقداً</value>
+  </data>
+  <data name="EdtCstCheckCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtCstCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="EdtCstCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="EdtCstCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtCstCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="EdtCstCheckPaymentBtnTxt" xml:space="preserve">
+    <value>الدفع بالشيك</value>
+  </data>
+  <data name="EdtCstCheckTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtCstChkDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstChkDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtCstChkedByUserNameLblTxt" xml:space="preserve">
+    <value>اسم المدقق</value>
+  </data>
+  <data name="EdtCstCheckTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtCstCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtCstCurrentBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الحالي</value>
+  </data>
+  <data name="EdtCstCurrentUserTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtCstCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtCstCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="EdtCstCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف الزبون</value>
+  </data>
+  <data name="EdtCstDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstgroupBox1Txt" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="EdtCstNewBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الجديد</value>
+  </data>
+  <data name="EdtCstPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="EdtCstPaymentAmountLblTxt" xml:space="preserve">
+    <value>مجموع الدفعة</value>
+  </data>
+  <data name="EdtCstPaymentCommentsLblTxt" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="EdtCstPaymentDateLblTxt" xml:space="preserve">
+    <value>تاريخ الدفع</value>
+  </data>
+  <data name="EdtCstPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtCstPaymentNumberLblTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="EdtCstReviseDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtCstRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtCstRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtCstReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtCstRevisePaymentBtnTxt" xml:space="preserve">
+    <value>دفعة المراجعة</value>
+  </data>
+  <data name="EdtCstReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtCstReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtCstTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtCstTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="EdtCstPytAccountBalnaceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب السابق</value>
+  </data>
+  <data name="EdtCstPytAccountLblTxt" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="EdtCstPytAccountBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الحالي</value>
+  </data>
+  <data name="EdtCstPytAddCustomerLblTxt" xml:space="preserve">
+    <value>تعديل دفعة زبون</value>
+  </data>
+  <data name="EdtCstPytAddCustomerPaymentLblTxt" xml:space="preserve">
+    <value>إضافة دفعة زبون</value>
+  </data>
+  <data name="EdtCstPytBankLblTxt" xml:space="preserve">
+    <value>البنك</value>
+  </data>
+  <data name="EdtCstPytCashPaymentGBTxt" xml:space="preserve">
+    <value>دفع نقداً</value>
+  </data>
+  <data name="EdtCstPytCheckCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtCstPytCheckGBTxt" xml:space="preserve">
+    <value>شيك</value>
+  </data>
+  <data name="EdtCstPytCheckHolderNameLblTxt" xml:space="preserve">
+    <value>اسم حامل الشيك</value>
+  </data>
+  <data name="EdtCstPytCheckInfoGBTxt" xml:space="preserve">
+    <value>معلومات الشيك</value>
+  </data>
+  <data name="EdtCstPytCheckNumberTxt" xml:space="preserve">
+    <value>رقم الشيك</value>
+  </data>
+  <data name="EdtCstPytCheckPaymentBtnTxt" xml:space="preserve">
+    <value>دفعة الشيك</value>
+  </data>
+  <data name="EdtCstPytCheckTimeTxt" xml:space="preserve">
+    <value>وقت الشيك</value>
+  </data>
+  <data name="EdtCstPytChkDateTxt" xml:space="preserve">
+    <value>تاريخ الشيك</value>
+  </data>
+  <data name="EdtCstPytChkDateLblTxt" xml:space="preserve">
+    <value>تاريخ الشيك</value>
+  </data>
+  <data name="EdtCstPytChkedByTxt" xml:space="preserve">
+    <value>دققها</value>
+  </data>
+  <data name="EdtCstPytChkedByUserNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtCstPytCkeckTimeLblTxt" xml:space="preserve">
+    <value>وقت التدقيق</value>
+  </data>
+  <data name="EdtCstPytCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtCstPytCurrentBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الحالي</value>
+  </data>
+  <data name="EdtCstPytCurrentUserTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtCstPytCurrentUserLblTxt" xml:space="preserve">
+    <value>المستخدم الحالي</value>
+  </data>
+  <data name="EdtCstPytCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="EdtCstPytCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف المستخدم</value>
+  </data>
+  <data name="EdtCstPytDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstPytgroupBox1Txt" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="EdtCstPytNewBalanceLblTxt" xml:space="preserve">
+    <value>الرصيد الجديد</value>
+  </data>
+  <data name="EdtCstPytPayInVisaGBTxt" xml:space="preserve">
+    <value>الدفع بالفيزا</value>
+  </data>
+  <data name="EdtCstPytPaymentAmountLblTxt" xml:space="preserve">
+    <value>مقدار الدفعة</value>
+  </data>
+  <data name="EdtCstPytPaymentCommentsLblTxt" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="EdtCstPytPaymentDateLblTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="EdtCstPytPaymentMethodLblTxt" xml:space="preserve">
+    <value>نظام الدفع</value>
+  </data>
+  <data name="EdtCstPytPaymentNumberLblTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="EdtCstPytReviseDateTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtCstPytReviseDatelblTxt" xml:space="preserve">
+    <value>تاريخ المراجعة</value>
+  </data>
+  <data name="EdtCstPytRevisedByTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtCstPytRevisedBylblTxt" xml:space="preserve">
+    <value>راجعها</value>
+  </data>
+  <data name="EdtCstPytReviseInfoGBTxt" xml:space="preserve">
+    <value>معلومات المراجعة</value>
+  </data>
+  <data name="EdtCstPytRevisePaymentBtnTxt" xml:space="preserve">
+    <value>مراجعة الدفعة</value>
+  </data>
+  <data name="EdtCstPytReviseTimeTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtCstPytReviseTimeLblTxt" xml:space="preserve">
+    <value>وقت المراجعة</value>
+  </data>
+  <data name="EdtCstPytTellerLblTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="EdtCstPytTimeLblTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="RctTxtItemNameTxt" xml:space="preserve">
+    <value>اسم السلعة</value>
+  </data>
+  <data name="RctTxtUnitPriceTxt" xml:space="preserve">
+    <value>سعر الوحدة</value>
+  </data>
+  <data name="RctTxtQtyTxt" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="RctTxtTotalTxt" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="RctTxtSubTotalTxt" xml:space="preserve">
+    <value>المجموع الجزئي</value>
+  </data>
+  <data name="RctTxtTaxTxt" xml:space="preserve">
+    <value>الضريبة</value>
+  </data>
+  <data name="RctTxtDisountInvoiceTxt" xml:space="preserve">
+    <value>خصم الفاتورة</value>
+  </data>
+  <data name="RctTxtPriceLvlDiscountTxt" xml:space="preserve">
+    <value>خصم مستوى التسعيرة</value>
+  </data>
+  <data name="RctTxtToPayAmountTxt" xml:space="preserve">
+    <value>المبلغ المطلوب دفعه</value>
+  </data>
+  <data name="RctTxtPayMethodTxt" xml:space="preserve">
+    <value>طريقة الدفع</value>
+  </data>
+  <data name="RctTxtCashInTxt" xml:space="preserve">
+    <value>المبلغ المدفوع</value>
+  </data>
+  <data name="RctTxtExchangeTxt" xml:space="preserve">
+    <value>الباقي</value>
+  </data>
+  <data name="RctTxtReceivableTxt" xml:space="preserve">
+    <value>على حساب العميل</value>
+  </data>
+  <data name="RctTxtPayableTxt" xml:space="preserve">
+    <value>على الحساب</value>
+  </data>
+  <data name="RctTxtOldBalanceTxt" xml:space="preserve">
+    <value>الرصيد القديم</value>
+  </data>
+  <data name="RctTxtNewBalanceTxt" xml:space="preserve">
+    <value>الرصيد الجديد</value>
+  </data>
+  <data name="RctTxtCurrenctBalanceTxt" xml:space="preserve">
+    <value>الرصيد الحالي</value>
+  </data>
+  <data name="RctTxtDateTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="RctTxtTimeTxt" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="RctTxtOrgDateTxt" xml:space="preserve">
+    <value>الرصيد الأصلي</value>
+  </data>
+  <data name="RctTxtOrgTimeTxt" xml:space="preserve">
+    <value>الوقت الأصلي</value>
+  </data>
+  <data name="RctTxtTellerTxt" xml:space="preserve">
+    <value>أمين الصندوق</value>
+  </data>
+  <data name="RctTxtOrgTellerTxt" xml:space="preserve">
+    <value>أمين الصندوق الأصلي</value>
+  </data>
+  <data name="RctTxtCustomerTxt" xml:space="preserve">
+    <value>زبون</value>
+  </data>
+  <data name="RctTxtVendorTxt" xml:space="preserve">
+    <value>بائع</value>
+  </data>
+  <data name="RctTxtInvoiceNumTxt" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="RctTxtPurchaseNumberTxt" xml:space="preserve">
+    <value>رقم الشراء</value>
+  </data>
+  <data name="RctTxtDuplicateTxt" xml:space="preserve">
+    <value>مكرر</value>
+  </data>
+  <data name="RctTxtReprintedOnTxt" xml:space="preserve">
+    <value>طبعت في</value>
+  </data>
+  <data name="RctTxtReprintedByTxt" xml:space="preserve">
+    <value>أعاد طباعتها</value>
+  </data>
+  <data name="RctTxtReversedTxt" xml:space="preserve">
+    <value>معكوسة</value>
+  </data>
+  <data name="RctTxtReversedByTxt" xml:space="preserve">
+    <value>عكسها</value>
+  </data>
+  <data name="RctTxtReversedOnTxt" xml:space="preserve">
+    <value>عكست في</value>
+  </data>
+  <data name="RctTxtDiscountTxt" xml:space="preserve">
+    <value>خصم</value>
+  </data>
+  <data name="RctTxtVoucherDiscountTxt" xml:space="preserve">
+    <value>خصم قسيمة</value>
+  </data>
+  <data name="RctTxtItemsDiscountTxt" xml:space="preserve">
+    <value>خصم السلع</value>
+  </data>
+  <data name="RctTxtTotalDiscountTxt" xml:space="preserve">
+    <value>الخصم الكلي</value>
+  </data>
+  <data name="RctTxtFeesTxt" xml:space="preserve">
+    <value>رسوم</value>
+  </data>
+  <data name="RctTxtPaymentNumTxt" xml:space="preserve">
+    <value>رقم الدفعة</value>
+  </data>
+  <data name="RctTxtUnitCostTxt" xml:space="preserve">
+    <value>تكلفة السلعة</value>
+  </data>
+  <data name="RctTxtDisposalReasonTxt" xml:space="preserve">
+    <value>سبب إتلاف</value>
+  </data>
+  <data name="RctTxtDisposeInvNumberTxt" xml:space="preserve">
+    <value>رقم فاتورة الإتلاف</value>
+  </data>
+  <data name="RctTxtRetVenInvNumTxt" xml:space="preserve">
+    <value>رقم فاتورة البائع</value>
+  </data>
+  <data name="RctTxtFreeItemsTxt" xml:space="preserve">
+    <value>سلع مجانية</value>
+  </data>
+  <data name="RctNmsSalesTxt" xml:space="preserve">
+    <value>مبيعات</value>
+  </data>
+  <data name="RctNmsPurchaseTxt" xml:space="preserve">
+    <value>شراء</value>
+  </data>
+  <data name="RctNmsCustomerPayTxt" xml:space="preserve">
+    <value>دفعة الزبون</value>
+  </data>
+  <data name="RctNmsVendorPayTxt" xml:space="preserve">
+    <value>دفعة البائع</value>
+  </data>
+  <data name="RctNmsDisposeitemsTxt" xml:space="preserve">
+    <value>إتلاف سلع</value>
+  </data>
+  <data name="RctNmsCustomerReturnsTxt" xml:space="preserve">
+    <value>عائدات الزبون</value>
+  </data>
+  <data name="RctNmsVendorReturnsTxt" xml:space="preserve">
+    <value>عائدات البائع</value>
+  </data>
+  <data name="AddCstAddPaymentandPrintBtnLblTxt" xml:space="preserve">
+    <value>حفظ وطباعة</value>
+  </data>
+  <data name="AddCstAddPaymentBtnLblTxt" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="CDCCustomerNameLblTxt" xml:space="preserve">
+    <value>اسم الزبون</value>
+  </data>
+  <data name="CDCCustomerPhoneLblTxt" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="CDCAccountBalnaceLblTxt" xml:space="preserve">
+    <value>رصيد الحساب</value>
+  </data>
+  <data name="CDCFiltersGBTxt" xml:space="preserve">
+    <value>خصائص البحث</value>
+  </data>
+  <data name="CDCDateCheckBoxTxt" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="CDCTellerNameChkBoxTxt" xml:space="preserve">
+    <value>اسم أمين الصندوق</value>
+  </data>
+  <data name="CDCDateFromLblTxt" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="CDCDateToLblTxt" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="CDCUnCheckedChkBoxTxt" xml:space="preserve">
+    <value>غير مدققة</value>
+  </data>
+  <data name="CDCUnRevisedChkBoxTxt" xml:space="preserve">
+    <value>غير مراجعة</value>
+  </data>
+  <data name="CDCCheckChkBoxTxt" xml:space="preserve">
+    <value>تدقيق</value>
+  </data>
+  <data name="CDCRevisedChkBoxTxt" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="CDCCreditBillsChkBoxTxt" xml:space="preserve">
+    <value>فواتير الائتمان</value>
+  </data>
+  <data name="CDCListDCBtnTxt" xml:space="preserve">
+    <value>فرز</value>
+  </data>
+  <data name="CDCMatchBalanceButtonTxt" xml:space="preserve">
+    <value>توفيق حساب</value>
+  </data>
+  <data name="CDCTotalBillsPriceLblTxt" xml:space="preserve">
+    <value>سعر الفواتير الكلي</value>
+  </data>
+  <data name="CDClabel1Txt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="CDClabel2Txt" xml:space="preserve">
+    <value>النتائج لكل صفحة</value>
+  </data>
+  <data name="CDCItemsPerPageBtnDebitTxt" xml:space="preserve">
+    <value>النتائج لكل صفحة</value>
+  </data>
+  <data name="CDCNextPageBtnDebitTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="CDCDebitLblTxt" xml:space="preserve">
+    <value>الدين</value>
+  </data>
+  <data name="CDClabel3Txt" xml:space="preserve">
+    <value>الصفحة</value>
+  </data>
+  <data name="CDCTotalCreditLblTxt" xml:space="preserve">
+    <value>الائتمان الكلي</value>
+  </data>
+  <data name="CDCTotalItemsLblTxt" xml:space="preserve">
+    <value>السلع الكلية</value>
+  </data>
+  <data name="CDCCreditLblTxt" xml:space="preserve">
+    <value>ائتمان</value>
+  </data>
+  <data name="CDCItemsPerPageLblTxt" xml:space="preserve">
+    <value>النتائج لكل صفحة</value>
+  </data>
+  <data name="CDCItemsPerPageBtnCreditTxt" xml:space="preserve">
+    <value>النتائج لكل صفحة</value>
+  </data>
+  <data name="CDCNextPageBtnCreditTxt" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="CDCTotalPagesLblTxt" xml:space="preserve">
+    <value>الصفحات الكلية</value>
+  </data>
+  <data name="CDCAddCustomerLblTxt" xml:space="preserve">
+    <value>خصم ائتمان العملاء</value>
+  </data>
+  <data name="MnFrmPOSTABTxt" xml:space="preserve">
+    <value>نقطة بيع</value>
+  </data>
+  <data name="MnFrmMakeSaleRibnBtnTxt" xml:space="preserve">
+    <value>أجر صفقة</value>
+  </data>
+  <data name="MnFrmListBillsRibnBtnTxt" xml:space="preserve">
+    <value>فرز الفواتير</value>
+  </data>
+  <data name="MnFrmTouchScreenRibnBtnTxt" xml:space="preserve">
+    <value>شاشة اللمس</value>
+  </data>
+  <data name="MnFrmEditBillRibnBtnTxt" xml:space="preserve">
+    <value>تعديل فاتورة</value>
+  </data>
+  <data name="MnFrmEditTouchScreenRibnBtnTxt" xml:space="preserve">
+    <value>تعديل شاشة اللمس</value>
+  </data>
+  <data name="MnFrmInventoryTABTxt" xml:space="preserve">
+    <value>جرد</value>
+  </data>
+  <data name="MnFrmAddNewItemRibnBtnTxt" xml:space="preserve">
+    <value>سلعة جديدة</value>
+  </data>
+  <data name="MnFrmListItemsRibnBtnTxt" xml:space="preserve">
+    <value>فرز السلع</value>
+  </data>
+  <data name="MnFrmDisposeItemsRibnBtnTxt" xml:space="preserve">
+    <value>إتلاف سلع</value>
+  </data>
+  <data name="MnFrmAccountsRibnBtnTxt" xml:space="preserve">
+    <value>حسابات</value>
+  </data>
+  <data name="MnFrmWeightSettingsRibnBtnTxt" xml:space="preserve">
+    <value>خصائص الوزن</value>
+  </data>
+  <data name="MnFrmEditInventoryTxt" xml:space="preserve">
+    <value>تعديل المواد</value>
+  </data>
+  <data name="MnFrmPurchaseTABTxt" xml:space="preserve">
+    <value>شراء</value>
+  </data>
+  <data name="MnFrmNewPurchaseVoucherRbnBtnTxt" xml:space="preserve">
+    <value>قسيمة شراء جديدة</value>
+  </data>
+  <data name="MnFrmListVouchersRibnBtnTxt" xml:space="preserve">
+    <value>فرز القسائم</value>
+  </data>
+  <data name="MnFrmVendorsTABTxt" xml:space="preserve">
+    <value>البائعون</value>
+  </data>
+  <data name="MnFrmAddNewVendorRibnBtnTxt" xml:space="preserve">
+    <value>بائع جديد</value>
+  </data>
+  <data name="MnFrmAddVendorPaymentRibnBtnTxt" xml:space="preserve">
+    <value>إضافة دفعة</value>
+  </data>
+  <data name="MnFrmListVendorsRibnBtnTxt" xml:space="preserve">
+    <value>فرز الموردين</value>
+  </data>
+  <data name="MnFrmVendorDebitCreditRbnBtnTxt" xml:space="preserve">
+    <value>تسوية الموردين</value>
+  </data>
+  <data name="MnFrmCustomersTABTxt" xml:space="preserve">
+    <value>زبائن</value>
+  </data>
+  <data name="MnFrmAddNewCustomerRibnBtnTxt" xml:space="preserve">
+    <value>زبون جديد</value>
+  </data>
+   <data name="MnFrmEditCustomersRibnBtnTxt" xml:space="preserve">
+    <value>ِتعديل زبون</value>
+  </data>
+  <data name="MnFrmListCustomersRibnBtnTxt" xml:space="preserve">
+    <value>فرز الزبائن</value>
+  </data>
+  <data name="MnFrmAddCustomerPaymentRibnBtnTxt" xml:space="preserve">
+    <value>اضافة دفعة</value>
+  </data>
+  <data name="MnFrmEditCustomersRibnBtnTxt" xml:space="preserve">
+    <value>تعديل زبون</value>
+  </data>
+  <data name="MnFrmCustDebitCreditRbnBtnTxt" xml:space="preserve">
+    <value>تسوية</value>
+  </data>
+  <data name="MnFrmToolsTABTxt" xml:space="preserve">
+    <value>أدوات</value>
+  </data>
+  <data name="MnFrmAddNewUserRibnBtnTxt" xml:space="preserve">
+    <value>مستخدم جديد</value>
+  </data>
+  <data name="MnFrmPrintingSettingsRibnBtnTxt" xml:space="preserve">
+    <value>خصائص الطباعة</value>
+  </data>
+  <data name="MnFrmListUsersRbnBtnTxt" xml:space="preserve">
+    <value>فرز المستخديم</value>
+  </data>
+  <data name="MnFrmLangComboBoxTxt" xml:space="preserve">
+    <value>لغة الواجهة</value>
+  </data>
+  <data name="MnFrmRestartEffectLblTxt" xml:space="preserve">
+    <value>إعادة التأثيرات</value>
+  </data>
+  <data name="MnFrmEditUsersRibnBtnTxt" xml:space="preserve">
+    <value>تعديل المستخدمين</value>
+  </data>
+  <data name="MnFrmDatabaseRbnBtnTxt" xml:space="preserve">
+    <value>قاعدة البيانات</value>
+  </data>
+  <data name="MnFrmConnStringRbnBtnTxt" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="MnFrmLoginTABTxt" xml:space="preserve">
+    <value>تسجيل دخول</value>
+  </data>
+  <data name="MnFrmTempLoginRibnBtnTxt" xml:space="preserve">
+    <value>دخول مؤقت</value>
+  </data>
+  <data name="MnFrmReportsTABTxt" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="MnFrmReportsRbnBtnTxt" xml:space="preserve">
+    <value>تقارير</value>
+  </data>
+  <data name="MnFrmGeneralPOSTxt" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="MnFrmEditPOSTxt" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="MnFrmGeneralInventoryTxt" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="MnFrmEdtInventoryTxt" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="MnFrmGeneralPurchaseTxt" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="MnFrmGeneralVendorsTxt" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="MnFrmEditVendorsTabTxt" xml:space="preserve">
+    <value>تعديل البائعين</value>
+  </data>
+</root>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\ribbon\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ribbon\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\CalciumComponents2.dll
+C:\Users\Administrator\Desktop\ribbon\SourceCode\System.Windows.Forms.Ribbon\bin\Debug\CalciumComponents2.pdb
+C:\Users\Administrator\Desktop\ribbon\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\CalciumComponents2.dll
+C:\Users\Administrator\Desktop\ribbon\SourceCode\System.Windows.Forms.Ribbon\obj\Debug\CalciumComponents2.pdb
